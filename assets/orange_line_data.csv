@@ -1,0 +1,19 @@
+"","season","route_id","direction_id","day_type_name","time_period_id","time_period_name","on_off","number_service_days","total_riders","avg_riders"
+"1","Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","on",77,123237,1600.48051948052
+"2","Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","on",77,447822,5815.87012987013
+"3","Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","on",77,1667887,21660.8701298701
+"4","Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","on",77,1488814,19335.2467532468
+"5","Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","on",77,1011581,13137.4155844156
+"6","Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","on",77,1591669,20671.025974026
+"7","Fall 2019","Orange",0,"weekday","time_period_07","EVENING","on",77,778603,10111.7272727273
+"8","Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","on",77,192302,2497.42857142857
+"9","Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","on",77,27497,357.103896103896
+"10","Fall 2019","Orange",1,"weekday","time_period_01","VERY_EARLY_MORNING","on",77,66368,861.922077922078
+"11","Fall 2019","Orange",1,"weekday","time_period_02","EARLY_AM","on",77,346026,4493.84415584416
+"12","Fall 2019","Orange",1,"weekday","time_period_03","AM_PEAK","on",77,1311494,17032.3896103896
+"13","Fall 2019","Orange",1,"weekday","time_period_04","MIDDAY_BASE","on",77,1328267,17250.2207792208
+"14","Fall 2019","Orange",1,"weekday","time_period_05","MIDDAY_SCHOOL","on",77,1121154,14560.4415584416
+"15","Fall 2019","Orange",1,"weekday","time_period_06","PM_PEAK","on",77,2023578,26280.2337662338
+"16","Fall 2019","Orange",1,"weekday","time_period_07","EVENING","on",77,901119,11702.8441558442
+"17","Fall 2019","Orange",1,"weekday","time_period_08","LATE_EVENING","on",77,223983,2908.87012987013
+"18","Fall 2019","Orange",1,"weekday","time_period_09","NIGHT","on",77,31784,412.779220779221
