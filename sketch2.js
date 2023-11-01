@@ -28,12 +28,12 @@ function draw() {
   userValue = slider.value()
 
   //Getting Riders
-  let r = userValue;
-    const mbtaLine = table.getString(r, "route_id");
-    const timePeriod = table.getString(r, "time_period_id");
-    const timeName = table.getString(r, "time_period_name");
-    const direction = table.getString(r, "direction_id"); //getting the direction
-    riders = table.getNum(r, "avg_riders");
+  let v = userValue;
+    const mbtaLine = table.getString(v, "route_id");
+    const timePeriod = table.getString(v, "time_period_id");
+    const timeName = table.getString(v, "time_period_name");
+    const direction = table.getString(v, "direction_id"); //getting the direction
+    riders = table.getNum(v, "avg_riders");
 
     console.log(riders)
   //Assigning width for each line
