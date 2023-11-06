@@ -1,0 +1,181 @@
+"","stop_name","Order","X","Y","season","route_id","direction_id","day_type_name","time_period_id","time_period_name","stop_id","on","off","slider_ref"
+"1","Oak Grove",1,25,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-ogmnl",8910,0,1
+"2","Malden Center",2,50,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-mlmnl",31827,41,1
+"3","Wellington",3,75,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-welln",18255,710,1
+"4","Assembly",4,100,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-astao",2159,1019,1
+"5","Sullivan Square",5,125,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-sull",26814,2037,1
+"6","Community College",6,150,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-ccmnl",2489,2105,1
+"7","North Station",7,175,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-north",710,12578,1
+"8","Haymarket",8,200,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-haecl",5399,6085,1
+"9","State Street",9,225,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-state",17240,11250,1
+"10","Downtown Crossing",10,250,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-dwnxg",5237,31431,1
+"11","Chinatown",11,275,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-chncl",415,4729,1
+"12","Tufts Medical Center",12,300,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-tumnl",786,7536,1
+"13","Back Bay",13,325,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-bbsta",578,14051,1
+"14","Massachusetts Ave.",14,350,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-masta",587,4152,1
+"15","Ruggles",15,375,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-rugg",563,9998,1
+"16","Roxbury Crossing",16,400,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-rcmnl",376,2490,1
+"17","Jackson Square",17,425,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-jaksn",588,1586,1
+"18","Stony Brook",18,450,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-sbmnl",162,797,1
+"19","Green Street",19,475,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-grnst",142,1002,1
+"20","Forest Hills",20,500,50,"Fall 2019","Orange",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-forhl",0,9642,1
+"21","Oak Grove",1,25,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-ogmnl",77406,0,2
+"22","Malden Center",2,50,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-mlmnl",77651,556,2
+"23","Wellington",3,75,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-welln",51516,2484,2
+"24","Assembly",4,100,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-astao",8404,3406,2
+"25","Sullivan Square",5,125,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-sull",43555,7026,2
+"26","Community College",6,150,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-ccmnl",8472,9223,2
+"27","North Station",7,175,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-north",34469,31391,2
+"28","Haymarket",8,200,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-haecl",21441,19630,2
+"29","State Street",9,225,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-state",74268,35993,2
+"30","Downtown Crossing",10,250,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-dwnxg",25116,105742,2
+"31","Chinatown",11,275,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-chncl",1314,15086,2
+"32","Tufts Medical Center",12,300,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-tumnl",2838,36291,2
+"33","Back Bay",13,325,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-bbsta",5317,57116,2
+"34","Massachusetts Ave.",14,350,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-masta",4033,13029,2
+"35","Ruggles",15,375,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-rugg",4109,49202,2
+"36","Roxbury Crossing",16,400,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-rcmnl",2416,17910,2
+"37","Jackson Square",17,425,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-jaksn",4320,6333,2
+"38","Stony Brook",18,450,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-sbmnl",625,2714,2
+"39","Green Street",19,475,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-grnst",552,5433,2
+"40","Forest Hills",20,500,50,"Fall 2019","Orange",0,"weekday","time_period_02","EARLY_AM","place-forhl",0,29257,2
+"41","Oak Grove",1,25,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-ogmnl",245542,0,3
+"42","Malden Center",2,50,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-mlmnl",350889,5757,3
+"43","Wellington",3,75,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-welln",203678,5178,3
+"44","Assembly",4,100,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-astao",50131,11300,3
+"45","Sullivan Square",5,125,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-sull",146989,19164,3
+"46","Community College",6,150,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-ccmnl",39408,42263,3
+"47","North Station",7,175,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-north",177412,99323,3
+"48","Haymarket",8,200,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-haecl",44711,70020,3
+"49","State Street",9,225,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-state",175249,177453,3
+"50","Downtown Crossing",10,250,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-dwnxg",137536,407654,3
+"51","Chinatown",11,275,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-chncl",8350,77128,3
+"52","Tufts Medical Center",12,300,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-tumnl",13662,105939,3
+"53","Back Bay",13,325,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-bbsta",28524,321387,3
+"54","Massachusetts Ave.",14,350,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-masta",10788,54843,3
+"55","Ruggles",15,375,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-rugg",10854,115261,3
+"56","Roxbury Crossing",16,400,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-rcmnl",7160,38759,3
+"57","Jackson Square",17,425,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-jaksn",12013,22365,3
+"58","Stony Brook",18,450,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-sbmnl",3153,11529,3
+"59","Green Street",19,475,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-grnst",1838,15346,3
+"60","Forest Hills",20,500,50,"Fall 2019","Orange",0,"weekday","time_period_03","AM_PEAK","place-forhl",0,67217,3
+"61","Oak Grove",1,25,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-ogmnl",107467,0,4
+"62","Malden Center",2,50,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-mlmnl",269284,13985,4
+"63","Wellington",3,75,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-welln",138695,6866,4
+"64","Assembly",4,100,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-astao",50152,12497,4
+"65","Sullivan Square",5,125,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-sull",137129,15708,4
+"66","Community College",6,150,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-ccmnl",79164,42423,4
+"67","North Station",7,175,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-north",111916,63924,4
+"68","Haymarket",8,200,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-haecl",74170,65158,4
+"69","State Street",9,225,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-state",158125,114829,4
+"70","Downtown Crossing",10,250,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-dwnxg",187550,311011,4
+"71","Chinatown",11,275,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-chncl",26403,89754,4
+"72","Tufts Medical Center",12,300,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-tumnl",29941,80133,4
+"73","Back Bay",13,325,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-bbsta",44882,196316,4
+"74","Massachusetts Ave.",14,350,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-masta",20876,74331,4
+"75","Ruggles",15,375,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-rugg",21737,137311,4
+"76","Roxbury Crossing",16,400,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-rcmnl",15668,43639,4
+"77","Jackson Square",17,425,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-jaksn",10240,48238,4
+"78","Stony Brook",18,450,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-sbmnl",2579,29513,4
+"79","Green Street",19,475,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-grnst",2836,27458,4
+"80","Forest Hills",20,500,50,"Fall 2019","Orange",0,"weekday","time_period_04","MIDDAY_BASE","place-forhl",0,115722,4
+"81","Oak Grove",1,25,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-ogmnl",28693,0,5
+"82","Malden Center",2,50,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-mlmnl",87108,3098,5
+"83","Wellington",3,75,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-welln",53518,3588,5
+"84","Assembly",4,100,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-astao",44953,6741,5
+"85","Sullivan Square",5,125,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-sull",74064,10294,5
+"86","Community College",6,150,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-ccmnl",63835,15822,5
+"87","North Station",7,175,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-north",68624,24808,5
+"88","Haymarket",8,200,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-haecl",61750,32261,5
+"89","State Street",9,225,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-state",122803,57348,5
+"90","Downtown Crossing",10,250,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-dwnxg",170509,163089,5
+"91","Chinatown",11,275,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-chncl",23066,30159,5
+"92","Tufts Medical Center",12,300,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-tumnl",32392,41769,5
+"93","Back Bay",13,325,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-bbsta",62499,100421,5
+"94","Massachusetts Ave.",14,350,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-masta",24745,49188,5
+"95","Ruggles",15,375,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-rugg",40444,94895,5
+"96","Roxbury Crossing",16,400,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-rcmnl",37761,39607,5
+"97","Jackson Square",17,425,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-jaksn",8698,67349,5
+"98","Stony Brook",18,450,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-sbmnl",2598,41974,5
+"99","Green Street",19,475,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-grnst",3521,34545,5
+"100","Forest Hills",20,500,50,"Fall 2019","Orange",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-forhl",0,194626,5
+"101","Oak Grove",1,25,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-ogmnl",32756,0,6
+"102","Malden Center",2,50,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-mlmnl",76286,3758,6
+"103","Wellington",3,75,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-welln",70676,3611,6
+"104","Assembly",4,100,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-astao",78738,6487,6
+"105","Sullivan Square",5,125,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-sull",94358,12895,6
+"106","Community College",6,150,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-ccmnl",59693,12689,6
+"107","North Station",7,175,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-north",154109,47450,6
+"108","Haymarket",8,200,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-haecl",93178,34630,6
+"109","State Street",9,225,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-state",225691,61111,6
+"110","Downtown Crossing",10,250,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-dwnxg",303434,213767,6
+"111","Chinatown",11,275,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-chncl",43560,32344,6
+"112","Tufts Medical Center",12,300,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-tumnl",59943,38979,6
+"113","Back Bay",13,325,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-bbsta",128549,163232,6
+"114","Massachusetts Ave.",14,350,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-masta",50188,85932,6
+"115","Ruggles",15,375,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-rugg",67778,129232,6
+"116","Roxbury Crossing",16,400,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-rcmnl",33092,75808,6
+"117","Jackson Square",17,425,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-jaksn",11801,116007,6
+"118","Stony Brook",18,450,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-sbmnl",3813,109917,6
+"119","Green Street",19,475,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-grnst",4026,98475,6
+"120","Forest Hills",20,500,50,"Fall 2019","Orange",0,"weekday","time_period_06","PM_PEAK","place-forhl",0,345342,6
+"121","Oak Grove",1,25,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-ogmnl",13715,0,7
+"122","Malden Center",2,50,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-mlmnl",28392,2679,7
+"123","Wellington",3,75,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-welln",38382,1577,7
+"124","Assembly",4,100,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-astao",36532,2986,7
+"125","Sullivan Square",5,125,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-sull",43235,6872,7
+"126","Community College",6,150,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-ccmnl",36404,4805,7
+"127","North Station",7,175,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-north",63661,23148,7
+"128","Haymarket",8,200,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-haecl",42681,18282,7
+"129","State Street",9,225,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-state",78390,33011,7
+"130","Downtown Crossing",10,250,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-dwnxg",160956,96045,7
+"131","Chinatown",11,275,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-chncl",34035,13641,7
+"132","Tufts Medical Center",12,300,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-tumnl",26979,18236,7
+"133","Back Bay",13,325,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-bbsta",78224,53090,7
+"134","Massachusetts Ave.",14,350,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-masta",35251,44855,7
+"135","Ruggles",15,375,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-rugg",38026,71213,7
+"136","Roxbury Crossing",16,400,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-rcmnl",14133,41070,7
+"137","Jackson Square",17,425,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-jaksn",6121,73403,7
+"138","Stony Brook",18,450,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-sbmnl",2092,67875,7
+"139","Green Street",19,475,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-grnst",1394,55964,7
+"140","Forest Hills",20,500,50,"Fall 2019","Orange",0,"weekday","time_period_07","EVENING","place-forhl",0,149852,7
+"141","Oak Grove",1,25,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-ogmnl",831,0,8
+"142","Malden Center",2,50,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-mlmnl",2849,84,8
+"143","Wellington",3,75,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-welln",14221,153,8
+"144","Assembly",4,100,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-astao",8946,286,8
+"145","Sullivan Square",5,125,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-sull",12142,2154,8
+"146","Community College",6,150,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-ccmnl",5094,1266,8
+"147","North Station",7,175,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-north",35800,1977,8
+"148","Haymarket",8,200,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-haecl",11117,6376,8
+"149","State Street",9,225,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-state",17178,14302,8
+"150","Downtown Crossing",10,250,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-dwnxg",28865,26711,8
+"151","Chinatown",11,275,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-chncl",9421,3100,8
+"152","Tufts Medical Center",12,300,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-tumnl",8389,4689,8
+"153","Back Bay",13,325,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-bbsta",18543,12365,8
+"154","Massachusetts Ave.",14,350,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-masta",10347,9164,8
+"155","Ruggles",15,375,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-rugg",5783,29357,8
+"156","Roxbury Crossing",16,400,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-rcmnl",1796,9591,8
+"157","Jackson Square",17,425,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-jaksn",681,24195,8
+"158","Stony Brook",18,450,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-sbmnl",153,15090,8
+"159","Green Street",19,475,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-grnst",146,10640,8
+"160","Forest Hills",20,500,50,"Fall 2019","Orange",0,"weekday","time_period_08","LATE_EVENING","place-forhl",0,20802,8
+"161","Oak Grove",1,25,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-ogmnl",96,0,9
+"162","Malden Center",2,50,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-mlmnl",360,8,9
+"163","Wellington",3,75,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-welln",2208,7,9
+"164","Assembly",4,100,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-astao",1073,30,9
+"165","Sullivan Square",5,125,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-sull",1774,319,9
+"166","Community College",6,150,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-ccmnl",352,126,9
+"167","North Station",7,175,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-north",3267,239,9
+"168","Haymarket",8,200,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-haecl",1276,911,9
+"169","State Street",9,225,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-state",3238,2339,9
+"170","Downtown Crossing",10,250,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-dwnxg",4983,2465,9
+"171","Chinatown",11,275,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-chncl",1220,272,9
+"172","Tufts Medical Center",12,300,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-tumnl",1217,549,9
+"173","Back Bay",13,325,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-bbsta",2817,1103,9
+"174","Massachusetts Ave.",14,350,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-masta",1921,1440,9
+"175","Ruggles",15,375,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-rugg",1225,5335,9
+"176","Roxbury Crossing",16,400,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-rcmnl",372,1734,9
+"177","Jackson Square",17,425,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-jaksn",69,4433,9
+"178","Stony Brook",18,450,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-sbmnl",20,2514,9
+"179","Green Street",19,475,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-grnst",9,1474,9
+"180","Forest Hills",20,500,50,"Fall 2019","Orange",0,"weekday","time_period_09","NIGHT","place-forhl",0,2201,9
