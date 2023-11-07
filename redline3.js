@@ -1,6 +1,8 @@
 //Establishing Table Variables
 let redTable;
-let data = []; //Declaring an array
+let redData = []; //Declaring an array
+let orangeTable;
+let orangeData = []; 
 let slider; 
 let userValue;
 let maxLinewidth = 30; //setting the maximum linewidth
@@ -13,6 +15,7 @@ let maxPostmapped = 10;
 
 //Loading in CSV
 function preload(){
+  //Loading Red Table
   redTable = loadTable('assets/red_line_alternating.csv'
  , 'csv', 'header', () => {
   for(let row of redTable.rows){
@@ -26,7 +29,24 @@ function preload(){
       sliderRef: int(row.get('slider_ref')),
       subLine: row.get('Alt')
     }
-    data.push(rowData);
+    redData.push(rowData);
+   }
+ })
+  //Loading Orange Table
+ orangeTable = loadTable('assets/orange_line_alternating.csv'
+ , 'csv', 'header', () => {
+  for(let row of orangeTable.rows){
+    let rowData = {
+      stop_name : row.get('stop_name'),
+      order: int(row.get('Order')),
+      x: float(row.get('X')),
+      y: float(row.get('Y')),
+      ridersOn: int(row.get('on')),
+      ridersOff: int(row.get('off')),
+      sliderRef: int(row.get('slider_ref')),
+      subLine: row.get('Alt')
+    }
+    orangeData.push(rowData);
    }
  })
 }
@@ -55,7 +75,7 @@ function redLineInbound(){
   userValue = slider.value()
 
   //Filter data to only include arrays where sliderRef = userValue
-  const filteredData = data.filter(data => data.sliderRef === userValue);
+  const filteredData = redData.filter(data => data.sliderRef === userValue);
 
 for(let i = 0; i < filteredData.length; i++){
   const currentData = filteredData[i];
@@ -74,12 +94,10 @@ for(let i = 0; i < filteredData.length; i++){
   //Mapping linewidth to actualWidth
   let actualWidth = map(linewidth, minPremapped, maxPremapped, minPostmapped, maxPostmapped);
   actualWidth = Math.min(actualWidth, maxLinewidth);
-  console.log(linewidth, currentData.order)
-
 
   //Check if the subLine is "X"
   if (currentData.subLine === 'X'){
-      const nextData = data.find((item)=> item.order > currentData.order && item.subLine ==="X");
+      const nextData = redData.find((item)=> item.order > currentData.order && item.subLine ==="X");
       if(nextData){
          //Draw a line segment between currentData and nextData
          stroke(255, 0, 0);
@@ -110,7 +128,7 @@ for(let i = 0; i < filteredData.length; i++){
 
   //Plotting "A" Line
   if (currentData.subLine === "A"){
-    const nextData = data.find((item)=> item.order > currentData.order && item.subLine ==="A");
+    const nextData = redData.find((item)=> item.order > currentData.order && item.subLine ==="A");
       if(nextData){
          //Draw a line segment between currentData and nextData
          stroke(255, 0, 0);
@@ -120,7 +138,7 @@ for(let i = 0; i < filteredData.length; i++){
   }
   //Plotting "B" Line
   if (currentData.subLine === "B"){
-    const nextData = data.find((item)=> item.order > currentData.order && item.subLine ==="B");
+    const nextData = redData.find((item)=> item.order > currentData.order && item.subLine ==="B");
       if(nextData){
          //Draw a line segment between currentData and nextData
          stroke(255, 0, 0);
@@ -129,6 +147,57 @@ for(let i = 0; i < filteredData.length; i++){
       }
   }
   }
+}
+
+function orangeLineInbound(){
+  let junctionElement = null;
+  let junctionOrder = -Infinity;
+  let minOrderA = Infinity;
+  let minOrderAElement = null;
+  let minOrderB = Infinity;
+  let minOrderBElement = null;
+  let netOn = 0;
+  let netOff = 0;
+  let linewidth = netOn - netOff;
+
+  //Assigning Slider value
+  userValue = slider.value()
+
+  //Filter data to only include arrays where sliderRef = userValue
+  const filteredData = orangeData.filter(data => data.sliderRef === userValue);
+  console.log(filteredData);
+
+for(let i = 0; i < filteredData.length; i++){
+  const currentData = filteredData[i];
+
+  //Calculate netOn and netOff
+  netOn = filteredData 
+    .filter(item => item.order < currentData.order)
+    .reduce((sum, item) => sum + item.ridersOn, 0);
+
+  netOff = filteredData 
+    .filter(item => item.order < currentData.order)
+    .reduce((sum, item) => sum + item.ridersOff, 0);
+
+  const linewidth = netOn - netOff;
+
+  //Mapping linewidth to actualWidth
+  let actualWidth = map(linewidth, minPremapped, maxPremapped, minPostmapped, maxPostmapped);
+  actualWidth = Math.min(actualWidth, maxLinewidth);
+  console.log(linewidth, currentData.order)
+
+
+  //Check if the subLine is "X"
+  if (currentData.subLine === 'X'){
+      const nextData = orangeData.find((item)=> item.order > currentData.order && item.subLine ==="X");
+      if(nextData){
+         //Draw a line segment between currentData and nextData
+         stroke(0, 0, 255);
+         strokeWeight(actualWidth);
+         line(currentData.x, currentData.y, nextData.x, nextData.y)
+      }
+    }
+}
 }
 
 //MBTA Map Redrawn
@@ -148,4 +217,5 @@ for (var x = 0; x < width; x += width / 40){
 
 //Loop through the data array
 redLineInbound()
+orangeLineInbound()
 }
