@@ -1,0 +1,199 @@
+"","stop_name","Order","X","Y","Alt","season","route_id","direction_id","day_type_name","time_period_id","time_period_name","stop_id","on","off","slider_ref"
+"1","Alewife",21,190,130,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-alfcl",7839,0,1
+"2","Davis",22,220,160,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-davis",8833,77,1
+"3","Porter",23,250,190,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-portr",6098,409,1
+"4","Harvard",24,280,220,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-harsq",12062,1688,1
+"5","Central",25,310,250,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-cntsq",7345,2808,1
+"6","Kendall/MIT",26,340,280,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-knncl",1389,5162,1
+"7","Charles/MGH",27,370,310,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-chmnl",1011,5657,1
+"8","Park Street",28,400,340,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-pktrm",9017,8272,1
+"9","Downtown Crossing",29,440,380,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-dwnxg",10933,9313,1
+"10","South Station",30,470,410,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-sstat",1852,11147,1
+"11","Broadway",31,470,450,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-brdwy",1450,3157,1
+"12","Andrew",32,470,490,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-andrw",1732,5861,1
+"13","JFK/Umass",33,470,530,"X","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-jfk",1600,2164,1
+"14","Savin Hill",34,440,560,"A","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-shmnl",241,303,1
+"15","Fields Corner",35,440,590,"A","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-fldcr",628,1822,1
+"16","Shawmut",36,440,620,"A","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-smmnl",97,462,1
+"17","Ashmont",37,440,650,"A","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-asmnl",0,3853,1
+"18","North Quincy",38,500,560,"B","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-nqncy",18,1725,1
+"19","Wollaston",39,520,580,"B","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-wlsta",2,234,1
+"20","Quincy Center",40,540,600,"B","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-qnctr",0,4525,1
+"21","Quincy Adams",41,560,620,"B","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-qamnl",0,1585,1
+"22","Braintree",42,560,640,"B","Fall 2019","Red",0,"weekday","time_period_01","VERY_EARLY_MORNING","place-brntn",0,1923,1
+"23","Alewife",21,190,130,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-alfcl",72111,0,2
+"24","Davis",22,220,160,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-davis",43926,550,2
+"25","Porter",23,250,190,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-portr",28278,1548,2
+"26","Harvard",24,280,220,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-harsq",27623,7437,2
+"27","Central",25,310,250,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-cntsq",21951,18096,2
+"28","Kendall/MIT",26,340,280,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-knncl",6930,25192,2
+"29","Charles/MGH",27,370,310,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-chmnl",3257,32451,2
+"30","Park Street",28,400,340,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-pktrm",27070,36978,2
+"31","Downtown Crossing",29,440,380,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-dwnxg",40055,32616,2
+"32","South Station",30,470,410,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-sstat",8111,48876,2
+"33","Broadway",31,470,450,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-brdwy",4434,12317,2
+"34","Andrew",32,470,490,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-andrw",6553,13627,2
+"35","JFK/Umass",33,470,530,"X","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-jfk",6176,17447,2
+"36","Savin Hill",34,440,560,"A","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-shmnl",1662,1696,2
+"37","Fields Corner",35,440,590,"A","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-fldcr",3741,6481,2
+"38","Shawmut",36,440,620,"A","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-smmnl",462,2710,2
+"39","Ashmont",37,440,650,"A","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-asmnl",0,12337,2
+"40","North Quincy",38,500,560,"B","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-nqncy",2371,9448,2
+"41","Wollaston",39,520,580,"B","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-wlsta",1392,1521,2
+"42","Quincy Center",40,540,600,"B","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-qnctr",1388,13430,2
+"43","Quincy Adams",41,560,620,"B","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-qamnl",110,6433,2
+"44","Braintree",42,560,640,"B","Fall 2019","Red",0,"weekday","time_period_02","EARLY_AM","place-brntn",0,6412,2
+"45","Alewife",21,190,130,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-alfcl",372451,0,3
+"46","Davis",22,220,160,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-davis",372722,3231,3
+"47","Porter",23,250,190,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-portr",255267,10087,3
+"48","Harvard",24,280,220,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-harsq",184960,85248,3
+"49","Central",25,310,250,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-cntsq",199838,120944,3
+"50","Kendall/MIT",26,340,280,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-knncl",56897,227641,3
+"51","Charles/MGH",27,370,310,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-chmnl",31190,101949,3
+"52","Park Street",28,400,340,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-pktrm",105230,303643,3
+"53","Downtown Crossing",29,440,380,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-dwnxg",163998,275678,3
+"54","South Station",30,470,410,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-sstat",46880,379692,3
+"55","Broadway",31,470,450,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-brdwy",16061,43929,3
+"56","Andrew",32,470,490,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-andrw",17199,24009,3
+"57","JFK/Umass",33,470,530,"X","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-jfk",24565,111386,3
+"58","Savin Hill",34,440,560,"A","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-shmnl",7276,7237,3
+"59","Fields Corner",35,440,590,"A","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-fldcr",12980,30531,3
+"60","Shawmut",36,440,620,"A","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-smmnl",1807,12506,3
+"61","Ashmont",37,440,650,"A","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-asmnl",0,38739,3
+"62","North Quincy",38,500,560,"B","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-nqncy",6705,36500,3
+"63","Wollaston",39,520,580,"B","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-wlsta",5002,5567,3
+"64","Quincy Center",40,540,600,"B","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-qnctr",4337,41001,3
+"65","Quincy Adams",41,560,620,"B","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-qamnl",565,15865,3
+"66","Braintree",42,560,640,"B","Fall 2019","Red",0,"weekday","time_period_03","AM_PEAK","place-brntn",0,10549,3
+"67","Alewife",21,190,130,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-alfcl",196752,0,4
+"68","Davis",22,220,160,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-davis",231035,6548,4
+"69","Porter",23,250,190,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-portr",163336,11542,4
+"70","Harvard",24,280,220,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-harsq",233481,70560,4
+"71","Central",25,310,250,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-cntsq",189460,85841,4
+"72","Kendall/MIT",26,340,280,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-knncl",91860,197667,4
+"73","Charles/MGH",27,370,310,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-chmnl",62761,78902,4
+"74","Park Street",28,400,340,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-pktrm",161428,270663,4
+"75","Downtown Crossing",29,440,380,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-dwnxg",216904,234465,4
+"76","South Station",30,470,410,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-sstat",74421,234917,4
+"77","Broadway",31,470,450,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-brdwy",17478,44967,4
+"78","Andrew",32,470,490,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-andrw",23345,43564,4
+"79","JFK/Umass",33,470,530,"X","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-jfk",45103,130900,4
+"80","Savin Hill",34,440,560,"A","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-shmnl",4819,15022,4
+"81","Fields Corner",35,440,590,"A","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-fldcr",10412,44444,4
+"82","Shawmut",36,440,620,"A","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-smmnl",1303,20577,4
+"83","Ashmont",37,440,650,"A","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-asmnl",0,61480,4
+"84","North Quincy",38,500,560,"B","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-nqncy",11873,43771,4
+"85","Wollaston",39,520,580,"B","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-wlsta",8633,22634,4
+"86","Quincy Center",40,540,600,"B","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-qnctr",5018,79523,4
+"87","Quincy Adams",41,560,620,"B","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-qamnl",352,26221,4
+"88","Braintree",42,560,640,"B","Fall 2019","Red",0,"weekday","time_period_04","MIDDAY_BASE","place-brntn",0,25569,4
+"89","Alewife",21,190,130,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-alfcl",59955,0,5
+"90","Davis",22,220,160,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-davis",62838,4611,5
+"91","Porter",23,250,190,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-portr",45669,6903,5
+"92","Harvard",24,280,220,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-harsq",172338,23059,5
+"93","Central",25,310,250,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-cntsq",100113,34045,5
+"94","Kendall/MIT",26,340,280,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-knncl",157385,36882,5
+"95","Charles/MGH",27,370,310,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-chmnl",102736,34439,5
+"96","Park Street",28,400,340,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-pktrm",198084,158294,5
+"97","Downtown Crossing",29,440,380,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-dwnxg",203502,164500,5
+"98","South Station",30,470,410,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-sstat",111357,149721,5
+"99","Broadway",31,470,450,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-brdwy",25436,45375,5
+"100","Andrew",32,470,490,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-andrw",28821,60989,5
+"101","JFK/Umass",33,470,530,"X","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-jfk",60261,69807,5
+"102","Savin Hill",34,440,560,"A","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-shmnl",4640,27354,5
+"103","Fields Corner",35,440,590,"A","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-fldcr",16259,72630,5
+"104","Shawmut",36,440,620,"A","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-smmnl",1749,37004,5
+"105","Ashmont",37,440,650,"A","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-asmnl",0,118221,5
+"106","North Quincy",38,500,560,"B","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-nqncy",13957,62834,5
+"107","Wollaston",39,520,580,"B","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-wlsta",4815,42594,5
+"108","Quincy Center",40,540,600,"B","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-qnctr",2852,99259,5
+"109","Quincy Adams",41,560,620,"B","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-qamnl",307,52538,5
+"110","Braintree",42,560,640,"B","Fall 2019","Red",0,"weekday","time_period_05","MIDDAY_SCHOOL","place-brntn",0,72016,5
+"111","Alewife",21,190,130,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-alfcl",152376,0,6
+"112","Davis",22,220,160,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-davis",95174,20443,6
+"113","Porter",23,250,190,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-portr",65715,17812,6
+"114","Harvard",24,280,220,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-harsq",261472,38963,6
+"115","Central",25,310,250,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-cntsq",176758,60575,6
+"116","Kendall/MIT",26,340,280,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-knncl",378498,36503,6
+"117","Charles/MGH",27,370,310,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-chmnl",174562,61860,6
+"118","Park Street",28,400,340,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-pktrm",447995,265892,6
+"119","Downtown Crossing",29,440,380,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-dwnxg",403860,282570,6
+"120","South Station",30,470,410,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-sstat",348532,314496,6
+"121","Broadway",31,470,450,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-brdwy",54184,113919,6
+"122","Andrew",32,470,490,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-andrw",38641,114197,6
+"123","JFK/Umass",33,470,530,"X","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-jfk",91894,138189,6
+"124","Savin Hill",34,440,560,"A","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-shmnl",4676,63138,6
+"125","Fields Corner",35,440,590,"A","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-fldcr",15305,106960,6
+"126","Shawmut",36,440,620,"A","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-smmnl",1925,75118,6
+"127","Ashmont",37,440,650,"A","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-asmnl",0,220672,6
+"128","North Quincy",38,500,560,"B","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-nqncy",19855,177107,6
+"129","Wollaston",39,520,580,"B","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-wlsta",4779,115678,6
+"130","Quincy Center",40,540,600,"B","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-qnctr",7058,229866,6
+"131","Quincy Adams",41,560,620,"B","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-qamnl",841,144985,6
+"132","Braintree",42,560,640,"B","Fall 2019","Red",0,"weekday","time_period_06","PM_PEAK","place-brntn",0,145157,6
+"133","Alewife",21,190,130,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-alfcl",58141,0,7
+"134","Davis",22,220,160,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-davis",65174,8302,7
+"135","Porter",23,250,190,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-portr",52291,8973,7
+"136","Harvard",24,280,220,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-harsq",148541,28143,7
+"137","Central",25,310,250,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-cntsq",97511,46836,7
+"138","Kendall/MIT",26,340,280,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-knncl",116815,28006,7
+"139","Charles/MGH",27,370,310,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-chmnl",74143,30335,7
+"140","Park Street",28,400,340,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-pktrm",251472,144674,7
+"141","Downtown Crossing",29,440,380,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-dwnxg",211556,123867,7
+"142","South Station",30,470,410,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-sstat",154908,93704,7
+"143","Broadway",31,470,450,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-brdwy",28769,62123,7
+"144","Andrew",32,470,490,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-andrw",18057,70270,7
+"145","JFK/Umass",33,470,530,"X","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-jfk",55308,93942,7
+"146","Savin Hill",34,440,560,"A","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-shmnl",2784,42671,7
+"147","Fields Corner",35,440,590,"A","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-fldcr",6134,68546,7
+"148","Shawmut",36,440,620,"A","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-smmnl",1212,45323,7
+"149","Ashmont",37,440,650,"A","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-asmnl",0,103165,7
+"150","North Quincy",38,500,560,"B","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-nqncy",6189,91628,7
+"151","Wollaston",39,520,580,"B","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-wlsta",2891,59767,7
+"152","Quincy Center",40,540,600,"B","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-qnctr",2397,100907,7
+"153","Quincy Adams",41,560,620,"B","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-qamnl",561,61514,7
+"154","Braintree",42,560,640,"B","Fall 2019","Red",0,"weekday","time_period_07","EVENING","place-brntn",0,42161,7
+"155","Alewife",21,190,130,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-alfcl",9202,0,8
+"156","Davis",22,220,160,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-davis",16661,1226,8
+"157","Porter",23,250,190,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-portr",13569,1169,8
+"158","Harvard",24,280,220,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-harsq",41924,4848,8
+"159","Central",25,310,250,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-cntsq",28512,7839,8
+"160","Kendall/MIT",26,340,280,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-knncl",22520,4825,8
+"161","Charles/MGH",27,370,310,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-chmnl",20876,4777,8
+"162","Park Street",28,400,340,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-pktrm",85566,46130,8
+"163","Downtown Crossing",29,440,380,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-dwnxg",44470,30784,8
+"164","South Station",30,470,410,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-sstat",34679,19308,8
+"165","Broadway",31,470,450,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-brdwy",6748,10516,8
+"166","Andrew",32,470,490,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-andrw",6109,17622,8
+"167","JFK/Umass",33,470,530,"X","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-jfk",8193,24075,8
+"168","Savin Hill",34,440,560,"A","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-shmnl",516,11504,8
+"169","Fields Corner",35,440,590,"A","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-fldcr",1359,29221,8
+"170","Shawmut",36,440,620,"A","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-smmnl",103,13169,8
+"171","Ashmont",37,440,650,"A","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-asmnl",0,30148,8
+"172","North Quincy",38,500,560,"B","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-nqncy",1920,21301,8
+"173","Wollaston",39,520,580,"B","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-wlsta",961,16452,8
+"174","Quincy Center",40,540,600,"B","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-qnctr",264,22753,8
+"175","Quincy Adams",41,560,620,"B","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-qamnl",124,15110,8
+"176","Braintree",42,560,640,"B","Fall 2019","Red",0,"weekday","time_period_08","LATE_EVENING","place-brntn",0,11500,8
+"177","Alewife",21,190,130,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-alfcl",603,0,9
+"178","Davis",22,220,160,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-davis",1729,39,9
+"179","Porter",23,250,190,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-portr",1268,133,9
+"180","Harvard",24,280,220,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-harsq",5108,374,9
+"181","Central",25,310,250,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-cntsq",3672,904,9
+"182","Kendall/MIT",26,340,280,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-knncl",3190,502,9
+"183","Charles/MGH",27,370,310,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-chmnl",1302,604,9
+"184","Park Street",28,400,340,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-pktrm",11009,5807,9
+"185","Downtown Crossing",29,440,380,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-dwnxg",6541,2822,9
+"186","South Station",30,470,410,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-sstat",6003,1935,9
+"187","Broadway",31,470,450,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-brdwy",1128,1733,9
+"188","Andrew",32,470,490,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-andrw",1080,2548,9
+"189","JFK/Umass",33,470,530,"X","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-jfk",1065,3637,9
+"190","Savin Hill",34,440,560,"A","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-shmnl",92,1899,9
+"191","Fields Corner",35,440,590,"A","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-fldcr",264,6012,9
+"192","Shawmut",36,440,620,"A","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-smmnl",32,6017,9
+"193","Ashmont",37,440,650,"A","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-asmnl",0,910,9
+"194","North Quincy",38,500,560,"B","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-nqncy",161,2087,9
+"195","Wollaston",39,520,580,"B","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-wlsta",51,1885,9
+"196","Quincy Center",40,540,600,"B","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-qnctr",22,2870,9
+"197","Quincy Adams",41,560,620,"B","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-qamnl",2,1496,9
+"198","Braintree",42,560,640,"B","Fall 2019","Red",0,"weekday","time_period_09","NIGHT","place-brntn",0,107,9
