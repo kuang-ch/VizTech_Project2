@@ -1,0 +1,397 @@
+"","stop_name","route_id","Order","X","Y","season","direction_id","number_service_days","time_period_id","time_period_name","on","off","Alt","slider_ref"
+"1","Alewife","Red",21,190,130,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",0,7794,0,1
+"2","Alewife","Red",21,190,130,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",7839,0,0,1
+"3","Alewife","Red",21,190,130,"Fall 2019",0,77,"time_period_02","EARLY_AM",72111,0,0,2
+"4","Alewife","Red",21,190,130,"Fall 2019",1,77,"time_period_02","EARLY_AM",0,25144,0,2
+"5","Alewife","Red",21,190,130,"Fall 2019",0,77,"time_period_03","AM_PEAK",372451,0,0,3
+"6","Alewife","Red",21,190,130,"Fall 2019",1,77,"time_period_03","AM_PEAK",0,96646,0,3
+"7","Alewife","Red",21,190,130,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",196752,0,0,4
+"8","Alewife","Red",21,190,130,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",0,84168,0,4
+"9","Alewife","Red",21,190,130,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",0,132451,0,5
+"10","Alewife","Red",21,190,130,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",59955,0,0,5
+"11","Alewife","Red",21,190,130,"Fall 2019",1,77,"time_period_06","PM_PEAK",0,408993,0,6
+"12","Alewife","Red",21,190,130,"Fall 2019",0,77,"time_period_06","PM_PEAK",152376,0,0,6
+"13","Alewife","Red",21,190,130,"Fall 2019",0,77,"time_period_07","EVENING",58141,0,0,7
+"14","Alewife","Red",21,190,130,"Fall 2019",1,77,"time_period_07","EVENING",0,165086,0,7
+"15","Alewife","Red",21,190,130,"Fall 2019",0,77,"time_period_08","LATE_EVENING",9202,0,0,8
+"16","Alewife","Red",21,190,130,"Fall 2019",1,77,"time_period_08","LATE_EVENING",0,32378,0,8
+"17","Alewife","Red",21,190,130,"Fall 2019",0,77,"time_period_09","NIGHT",603,0,0,9
+"18","Alewife","Red",21,190,130,"Fall 2019",1,77,"time_period_09","NIGHT",0,1737,0,9
+"19","Davis","Red",22,220,160,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",668,2871,0,1
+"20","Davis","Red",22,220,160,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",8833,77,0,1
+"21","Davis","Red",22,220,160,"Fall 2019",1,77,"time_period_02","EARLY_AM",3082,9795,0,2
+"22","Davis","Red",22,220,160,"Fall 2019",0,77,"time_period_02","EARLY_AM",43926,550,0,2
+"23","Davis","Red",22,220,160,"Fall 2019",1,77,"time_period_03","AM_PEAK",16320,47496,0,3
+"24","Davis","Red",22,220,160,"Fall 2019",0,77,"time_period_03","AM_PEAK",372722,3231,0,3
+"25","Davis","Red",22,220,160,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",8917,88989,0,4
+"26","Davis","Red",22,220,160,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",231035,6548,0,4
+"27","Davis","Red",22,220,160,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",62838,4611,0,5
+"28","Davis","Red",22,220,160,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",3597,110015,0,5
+"29","Davis","Red",22,220,160,"Fall 2019",1,77,"time_period_06","PM_PEAK",6465,403390,0,6
+"30","Davis","Red",22,220,160,"Fall 2019",0,77,"time_period_06","PM_PEAK",95174,20443,0,6
+"31","Davis","Red",22,220,160,"Fall 2019",0,77,"time_period_07","EVENING",65174,8302,0,7
+"32","Davis","Red",22,220,160,"Fall 2019",1,77,"time_period_07","EVENING",6037,229692,0,7
+"33","Davis","Red",22,220,160,"Fall 2019",0,77,"time_period_08","LATE_EVENING",16661,1226,0,8
+"34","Davis","Red",22,220,160,"Fall 2019",1,77,"time_period_08","LATE_EVENING",1246,44182,0,8
+"35","Davis","Red",22,220,160,"Fall 2019",0,77,"time_period_09","NIGHT",1729,39,0,9
+"36","Davis","Red",22,220,160,"Fall 2019",1,77,"time_period_09","NIGHT",101,7021,0,9
+"37","Porter","Red",23,250,190,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",6098,409,0,1
+"38","Porter","Red",23,250,190,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",214,2432,0,1
+"39","Porter","Red",23,250,190,"Fall 2019",1,77,"time_period_02","EARLY_AM",1744,9205,0,2
+"40","Porter","Red",23,250,190,"Fall 2019",0,77,"time_period_02","EARLY_AM",28278,1548,0,2
+"41","Porter","Red",23,250,190,"Fall 2019",1,77,"time_period_03","AM_PEAK",11635,32277,0,3
+"42","Porter","Red",23,250,190,"Fall 2019",0,77,"time_period_03","AM_PEAK",255267,10087,0,3
+"43","Porter","Red",23,250,190,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",8962,71688,0,4
+"44","Porter","Red",23,250,190,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",163336,11542,0,4
+"45","Porter","Red",23,250,190,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",45669,6903,0,5
+"46","Porter","Red",23,250,190,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",6046,85409,0,5
+"47","Porter","Red",23,250,190,"Fall 2019",1,77,"time_period_06","PM_PEAK",14448,289150,0,6
+"48","Porter","Red",23,250,190,"Fall 2019",0,77,"time_period_06","PM_PEAK",65715,17812,0,6
+"49","Porter","Red",23,250,190,"Fall 2019",0,77,"time_period_07","EVENING",52291,8973,0,7
+"50","Porter","Red",23,250,190,"Fall 2019",1,77,"time_period_07","EVENING",12196,152783,0,7
+"51","Porter","Red",23,250,190,"Fall 2019",1,77,"time_period_08","LATE_EVENING",1786,28778,0,8
+"52","Porter","Red",23,250,190,"Fall 2019",0,77,"time_period_08","LATE_EVENING",13569,1169,0,8
+"53","Porter","Red",23,250,190,"Fall 2019",1,77,"time_period_09","NIGHT",299,4262,0,9
+"54","Porter","Red",23,250,190,"Fall 2019",0,77,"time_period_09","NIGHT",1268,133,0,9
+"55","Harvard","Red",24,280,220,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",912,8812,0,1
+"56","Harvard","Red",24,280,220,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",12062,1688,0,1
+"57","Harvard","Red",24,280,220,"Fall 2019",0,77,"time_period_02","EARLY_AM",27623,7437,0,2
+"58","Harvard","Red",24,280,220,"Fall 2019",1,77,"time_period_02","EARLY_AM",2670,36096,0,2
+"59","Harvard","Red",24,280,220,"Fall 2019",1,77,"time_period_03","AM_PEAK",16938,176222,0,3
+"60","Harvard","Red",24,280,220,"Fall 2019",0,77,"time_period_03","AM_PEAK",184960,85248,0,3
+"61","Harvard","Red",24,280,220,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",233481,70560,0,4
+"62","Harvard","Red",24,280,220,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",36576,216085,0,4
+"63","Harvard","Red",24,280,220,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",172338,23059,0,5
+"64","Harvard","Red",24,280,220,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",48728,127965,0,5
+"65","Harvard","Red",24,280,220,"Fall 2019",1,77,"time_period_06","PM_PEAK",106292,227207,0,6
+"66","Harvard","Red",24,280,220,"Fall 2019",0,77,"time_period_06","PM_PEAK",261472,38963,0,6
+"67","Harvard","Red",24,280,220,"Fall 2019",0,77,"time_period_07","EVENING",148541,28143,0,7
+"68","Harvard","Red",24,280,220,"Fall 2019",1,77,"time_period_07","EVENING",70628,140972,0,7
+"69","Harvard","Red",24,280,220,"Fall 2019",0,77,"time_period_08","LATE_EVENING",41924,4848,0,8
+"70","Harvard","Red",24,280,220,"Fall 2019",1,77,"time_period_08","LATE_EVENING",14453,27627,0,8
+"71","Harvard","Red",24,280,220,"Fall 2019",0,77,"time_period_09","NIGHT",5108,374,0,9
+"72","Harvard","Red",24,280,220,"Fall 2019",1,77,"time_period_09","NIGHT",2460,3508,0,9
+"73","Central","Red",25,310,250,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",1104,10171,0,1
+"74","Central","Red",25,310,250,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",7345,2808,0,1
+"75","Central","Red",25,310,250,"Fall 2019",0,77,"time_period_02","EARLY_AM",21951,18096,0,2
+"76","Central","Red",25,310,250,"Fall 2019",1,77,"time_period_02","EARLY_AM",4272,36905,0,2
+"77","Central","Red",25,310,250,"Fall 2019",0,77,"time_period_03","AM_PEAK",199838,120944,0,3
+"78","Central","Red",25,310,250,"Fall 2019",1,77,"time_period_03","AM_PEAK",29389,143156,0,3
+"79","Central","Red",25,310,250,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",189460,85841,0,4
+"80","Central","Red",25,310,250,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",48849,147544,0,4
+"81","Central","Red",25,310,250,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",100113,34045,0,5
+"82","Central","Red",25,310,250,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",47597,107786,0,5
+"83","Central","Red",25,310,250,"Fall 2019",0,77,"time_period_06","PM_PEAK",176758,60575,0,6
+"84","Central","Red",25,310,250,"Fall 2019",1,77,"time_period_06","PM_PEAK",134531,278212,0,6
+"85","Central","Red",25,310,250,"Fall 2019",0,77,"time_period_07","EVENING",97511,46836,0,7
+"86","Central","Red",25,310,250,"Fall 2019",1,77,"time_period_07","EVENING",79696,162964,0,7
+"87","Central","Red",25,310,250,"Fall 2019",1,77,"time_period_08","LATE_EVENING",15375,29313,0,8
+"88","Central","Red",25,310,250,"Fall 2019",0,77,"time_period_08","LATE_EVENING",28512,7839,0,8
+"89","Central","Red",25,310,250,"Fall 2019",0,77,"time_period_09","NIGHT",3672,904,0,9
+"90","Central","Red",25,310,250,"Fall 2019",1,77,"time_period_09","NIGHT",2245,4038,0,9
+"91","Kendall/MIT","Red",26,340,280,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",224,19341,0,1
+"92","Kendall/MIT","Red",26,340,280,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",1389,5162,0,1
+"93","Kendall/MIT","Red",26,340,280,"Fall 2019",1,77,"time_period_02","EARLY_AM",1439,85225,0,2
+"94","Kendall/MIT","Red",26,340,280,"Fall 2019",0,77,"time_period_02","EARLY_AM",6930,25192,0,2
+"95","Kendall/MIT","Red",26,340,280,"Fall 2019",1,77,"time_period_03","AM_PEAK",13960,342585,0,3
+"96","Kendall/MIT","Red",26,340,280,"Fall 2019",0,77,"time_period_03","AM_PEAK",56897,227641,0,3
+"97","Kendall/MIT","Red",26,340,280,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",91860,197667,0,4
+"98","Kendall/MIT","Red",26,340,280,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",52114,211932,0,4
+"99","Kendall/MIT","Red",26,340,280,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",74515,60019,0,5
+"100","Kendall/MIT","Red",26,340,280,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",157385,36882,0,5
+"101","Kendall/MIT","Red",26,340,280,"Fall 2019",0,77,"time_period_06","PM_PEAK",378498,36503,0,6
+"102","Kendall/MIT","Red",26,340,280,"Fall 2019",1,77,"time_period_06","PM_PEAK",268943,98205,0,6
+"103","Kendall/MIT","Red",26,340,280,"Fall 2019",0,77,"time_period_07","EVENING",116815,28006,0,7
+"104","Kendall/MIT","Red",26,340,280,"Fall 2019",1,77,"time_period_07","EVENING",116818,61766,0,7
+"105","Kendall/MIT","Red",26,340,280,"Fall 2019",0,77,"time_period_08","LATE_EVENING",22520,4825,0,8
+"106","Kendall/MIT","Red",26,340,280,"Fall 2019",1,77,"time_period_08","LATE_EVENING",13235,13275,0,8
+"107","Kendall/MIT","Red",26,340,280,"Fall 2019",0,77,"time_period_09","NIGHT",3190,502,0,9
+"108","Kendall/MIT","Red",26,340,280,"Fall 2019",1,77,"time_period_09","NIGHT",2251,1801,0,9
+"109","Charles/MGH","Red",27,370,310,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",788,20015,0,1
+"110","Charles/MGH","Red",27,370,310,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",1011,5657,0,1
+"111","Charles/MGH","Red",27,370,310,"Fall 2019",1,77,"time_period_02","EARLY_AM",4774,105056,0,2
+"112","Charles/MGH","Red",27,370,310,"Fall 2019",0,77,"time_period_02","EARLY_AM",3257,32451,0,2
+"113","Charles/MGH","Red",27,370,310,"Fall 2019",1,77,"time_period_03","AM_PEAK",53239,156500,0,3
+"114","Charles/MGH","Red",27,370,310,"Fall 2019",0,77,"time_period_03","AM_PEAK",31190,101949,0,3
+"115","Charles/MGH","Red",27,370,310,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",62761,78902,0,4
+"116","Charles/MGH","Red",27,370,310,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",65593,99003,0,4
+"117","Charles/MGH","Red",27,370,310,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",48567,48904,0,5
+"118","Charles/MGH","Red",27,370,310,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",102736,34439,0,5
+"119","Charles/MGH","Red",27,370,310,"Fall 2019",0,77,"time_period_06","PM_PEAK",174562,61860,0,6
+"120","Charles/MGH","Red",27,370,310,"Fall 2019",1,77,"time_period_06","PM_PEAK",113559,42691,0,6
+"121","Charles/MGH","Red",27,370,310,"Fall 2019",0,77,"time_period_07","EVENING",74143,30335,0,7
+"122","Charles/MGH","Red",27,370,310,"Fall 2019",1,77,"time_period_07","EVENING",62786,27055,0,7
+"123","Charles/MGH","Red",27,370,310,"Fall 2019",1,77,"time_period_08","LATE_EVENING",12271,5259,0,8
+"124","Charles/MGH","Red",27,370,310,"Fall 2019",0,77,"time_period_08","LATE_EVENING",20876,4777,0,8
+"125","Charles/MGH","Red",27,370,310,"Fall 2019",1,77,"time_period_09","NIGHT",1503,634,0,9
+"126","Charles/MGH","Red",27,370,310,"Fall 2019",0,77,"time_period_09","NIGHT",1302,604,0,9
+"127","Park Street","Red",28,400,340,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",9017,8272,0,1
+"128","Park Street","Red",28,400,340,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",13188,22404,0,1
+"129","Park Street","Red",28,400,340,"Fall 2019",1,77,"time_period_02","EARLY_AM",32535,102787,0,2
+"130","Park Street","Red",28,400,340,"Fall 2019",0,77,"time_period_02","EARLY_AM",27070,36978,0,2
+"131","Park Street","Red",28,400,340,"Fall 2019",0,77,"time_period_03","AM_PEAK",105230,303643,0,3
+"132","Park Street","Red",28,400,340,"Fall 2019",1,77,"time_period_03","AM_PEAK",131586,325508,0,3
+"133","Park Street","Red",28,400,340,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",189161,258951,0,4
+"134","Park Street","Red",28,400,340,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",161428,270663,0,4
+"135","Park Street","Red",28,400,340,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",198084,158294,0,5
+"136","Park Street","Red",28,400,340,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",154253,136723,0,5
+"137","Park Street","Red",28,400,340,"Fall 2019",0,77,"time_period_06","PM_PEAK",447995,265892,0,6
+"138","Park Street","Red",28,400,340,"Fall 2019",1,77,"time_period_06","PM_PEAK",382181,172638,0,6
+"139","Park Street","Red",28,400,340,"Fall 2019",0,77,"time_period_07","EVENING",251472,144674,0,7
+"140","Park Street","Red",28,400,340,"Fall 2019",1,77,"time_period_07","EVENING",252883,94623,0,7
+"141","Park Street","Red",28,400,340,"Fall 2019",1,77,"time_period_08","LATE_EVENING",66446,24316,0,8
+"142","Park Street","Red",28,400,340,"Fall 2019",0,77,"time_period_08","LATE_EVENING",85566,46130,0,8
+"143","Park Street","Red",28,400,340,"Fall 2019",1,77,"time_period_09","NIGHT",7577,3979,0,9
+"144","Park Street","Red",28,400,340,"Fall 2019",0,77,"time_period_09","NIGHT",11009,5807,0,9
+"145","Downtown Crossing","Red",29,440,380,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",12187,28392,0,1
+"146","Downtown Crossing","Red",29,440,380,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",10933,9313,0,1
+"147","Downtown Crossing","Red",29,440,380,"Fall 2019",0,77,"time_period_02","EARLY_AM",40055,32616,0,2
+"148","Downtown Crossing","Red",29,440,380,"Fall 2019",1,77,"time_period_02","EARLY_AM",57229,120148,0,2
+"149","Downtown Crossing","Red",29,440,380,"Fall 2019",1,77,"time_period_03","AM_PEAK",197611,409877,0,3
+"150","Downtown Crossing","Red",29,440,380,"Fall 2019",0,77,"time_period_03","AM_PEAK",163998,275678,0,3
+"151","Downtown Crossing","Red",29,440,380,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",216904,234465,0,4
+"152","Downtown Crossing","Red",29,440,380,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",219075,328264,0,4
+"153","Downtown Crossing","Red",29,440,380,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",203502,164500,0,5
+"154","Downtown Crossing","Red",29,440,380,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",147778,210525,0,5
+"155","Downtown Crossing","Red",29,440,380,"Fall 2019",0,77,"time_period_06","PM_PEAK",403860,282570,0,6
+"156","Downtown Crossing","Red",29,440,380,"Fall 2019",1,77,"time_period_06","PM_PEAK",337645,267593,0,6
+"157","Downtown Crossing","Red",29,440,380,"Fall 2019",0,77,"time_period_07","EVENING",211556,123867,0,7
+"158","Downtown Crossing","Red",29,440,380,"Fall 2019",1,77,"time_period_07","EVENING",172740,105452,0,7
+"159","Downtown Crossing","Red",29,440,380,"Fall 2019",1,77,"time_period_08","LATE_EVENING",30415,20835,0,8
+"160","Downtown Crossing","Red",29,440,380,"Fall 2019",0,77,"time_period_08","LATE_EVENING",44470,30784,0,8
+"161","Downtown Crossing","Red",29,440,380,"Fall 2019",0,77,"time_period_09","NIGHT",6541,2822,0,9
+"162","Downtown Crossing","Red",29,440,380,"Fall 2019",1,77,"time_period_09","NIGHT",3582,3091,0,9
+"163","South Station","Red",30,470,410,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",1852,11147,0,1
+"164","South Station","Red",30,470,410,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",3645,19809,0,1
+"165","South Station","Red",30,470,410,"Fall 2019",0,77,"time_period_02","EARLY_AM",8111,48876,0,2
+"166","South Station","Red",30,470,410,"Fall 2019",1,77,"time_period_02","EARLY_AM",68307,75200,0,2
+"167","South Station","Red",30,470,410,"Fall 2019",0,77,"time_period_03","AM_PEAK",46880,379692,0,3
+"168","South Station","Red",30,470,410,"Fall 2019",1,77,"time_period_03","AM_PEAK",299729,339404,0,3
+"169","South Station","Red",30,470,410,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",205931,149002,0,4
+"170","South Station","Red",30,470,410,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",74421,234917,0,4
+"171","South Station","Red",30,470,410,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",149227,51783,0,5
+"172","South Station","Red",30,470,410,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",111357,149721,0,5
+"173","South Station","Red",30,470,410,"Fall 2019",1,77,"time_period_06","PM_PEAK",469317,53492,0,6
+"174","South Station","Red",30,470,410,"Fall 2019",0,77,"time_period_06","PM_PEAK",348532,314496,0,6
+"175","South Station","Red",30,470,410,"Fall 2019",1,77,"time_period_07","EVENING",196369,21307,0,7
+"176","South Station","Red",30,470,410,"Fall 2019",0,77,"time_period_07","EVENING",154908,93704,0,7
+"177","South Station","Red",30,470,410,"Fall 2019",0,77,"time_period_08","LATE_EVENING",34679,19308,0,8
+"178","South Station","Red",30,470,410,"Fall 2019",1,77,"time_period_08","LATE_EVENING",36708,4538,0,8
+"179","South Station","Red",30,470,410,"Fall 2019",0,77,"time_period_09","NIGHT",6003,1935,0,9
+"180","South Station","Red",30,470,410,"Fall 2019",1,77,"time_period_09","NIGHT",6190,355,0,9
+"181","Broadway","Red",31,470,450,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",1450,3157,0,1
+"182","Broadway","Red",31,470,450,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",3695,4431,0,1
+"183","Broadway","Red",31,470,450,"Fall 2019",0,77,"time_period_02","EARLY_AM",4434,12317,0,2
+"184","Broadway","Red",31,470,450,"Fall 2019",1,77,"time_period_02","EARLY_AM",17757,17991,0,2
+"185","Broadway","Red",31,470,450,"Fall 2019",0,77,"time_period_03","AM_PEAK",16061,43929,0,3
+"186","Broadway","Red",31,470,450,"Fall 2019",1,77,"time_period_03","AM_PEAK",112013,50212,0,3
+"187","Broadway","Red",31,470,450,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",17478,44967,0,4
+"188","Broadway","Red",31,470,450,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",64628,31040,0,4
+"189","Broadway","Red",31,470,450,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",25436,45375,0,5
+"190","Broadway","Red",31,470,450,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",32033,19745,0,5
+"191","Broadway","Red",31,470,450,"Fall 2019",1,77,"time_period_06","PM_PEAK",58050,18530,0,6
+"192","Broadway","Red",31,470,450,"Fall 2019",0,77,"time_period_06","PM_PEAK",54184,113919,0,6
+"193","Broadway","Red",31,470,450,"Fall 2019",1,77,"time_period_07","EVENING",32342,9833,0,7
+"194","Broadway","Red",31,470,450,"Fall 2019",0,77,"time_period_07","EVENING",28769,62123,0,7
+"195","Broadway","Red",31,470,450,"Fall 2019",0,77,"time_period_08","LATE_EVENING",6748,10516,0,8
+"196","Broadway","Red",31,470,450,"Fall 2019",1,77,"time_period_08","LATE_EVENING",9011,2270,0,8
+"197","Broadway","Red",31,470,450,"Fall 2019",1,77,"time_period_09","NIGHT",1339,210,0,9
+"198","Broadway","Red",31,470,450,"Fall 2019",0,77,"time_period_09","NIGHT",1128,1733,0,9
+"199","Andrew","Red",32,470,490,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",1732,5861,0,1
+"200","Andrew","Red",32,470,490,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",12279,4277,0,1
+"201","Andrew","Red",32,470,490,"Fall 2019",1,77,"time_period_02","EARLY_AM",28326,22273,0,2
+"202","Andrew","Red",32,470,490,"Fall 2019",0,77,"time_period_02","EARLY_AM",6553,13627,0,2
+"203","Andrew","Red",32,470,490,"Fall 2019",0,77,"time_period_03","AM_PEAK",17199,24009,0,3
+"204","Andrew","Red",32,470,490,"Fall 2019",1,77,"time_period_03","AM_PEAK",102423,30032,0,3
+"205","Andrew","Red",32,470,490,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",77176,25393,0,4
+"206","Andrew","Red",32,470,490,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",23345,43564,0,4
+"207","Andrew","Red",32,470,490,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",43374,20795,0,5
+"208","Andrew","Red",32,470,490,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",28821,60989,0,5
+"209","Andrew","Red",32,470,490,"Fall 2019",1,77,"time_period_06","PM_PEAK",42037,20536,0,6
+"210","Andrew","Red",32,470,490,"Fall 2019",0,77,"time_period_06","PM_PEAK",38641,114197,0,6
+"211","Andrew","Red",32,470,490,"Fall 2019",1,77,"time_period_07","EVENING",20013,11973,0,7
+"212","Andrew","Red",32,470,490,"Fall 2019",0,77,"time_period_07","EVENING",18057,70270,0,7
+"213","Andrew","Red",32,470,490,"Fall 2019",0,77,"time_period_08","LATE_EVENING",6109,17622,0,8
+"214","Andrew","Red",32,470,490,"Fall 2019",1,77,"time_period_08","LATE_EVENING",4360,3661,0,8
+"215","Andrew","Red",32,470,490,"Fall 2019",1,77,"time_period_09","NIGHT",587,366,0,9
+"216","Andrew","Red",32,470,490,"Fall 2019",0,77,"time_period_09","NIGHT",1080,2548,0,9
+"217","JFK/Umass","Red",33,470,530,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",7172,2852,0,1
+"218","JFK/Umass","Red",33,470,530,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",1600,2164,0,1
+"219","JFK/Umass","Red",33,470,530,"Fall 2019",0,77,"time_period_02","EARLY_AM",6176,17447,0,2
+"220","JFK/Umass","Red",33,470,530,"Fall 2019",1,77,"time_period_02","EARLY_AM",21468,23879,0,2
+"221","JFK/Umass","Red",33,470,530,"Fall 2019",0,77,"time_period_03","AM_PEAK",24565,111386,0,3
+"222","JFK/Umass","Red",33,470,530,"Fall 2019",1,77,"time_period_03","AM_PEAK",106596,80675,0,3
+"223","JFK/Umass","Red",33,470,530,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",122634,73503,0,4
+"224","JFK/Umass","Red",33,470,530,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",45103,130900,0,4
+"225","JFK/Umass","Red",33,470,530,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",114824,27207,0,5
+"226","JFK/Umass","Red",33,470,530,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",60261,69807,0,5
+"227","JFK/Umass","Red",33,470,530,"Fall 2019",0,77,"time_period_06","PM_PEAK",91894,138189,0,6
+"228","JFK/Umass","Red",33,470,530,"Fall 2019",1,77,"time_period_06","PM_PEAK",110424,29899,0,6
+"229","JFK/Umass","Red",33,470,530,"Fall 2019",0,77,"time_period_07","EVENING",55308,93942,0,7
+"230","JFK/Umass","Red",33,470,530,"Fall 2019",1,77,"time_period_07","EVENING",49491,15390,0,7
+"231","JFK/Umass","Red",33,470,530,"Fall 2019",0,77,"time_period_08","LATE_EVENING",8193,24075,0,8
+"232","JFK/Umass","Red",33,470,530,"Fall 2019",1,77,"time_period_08","LATE_EVENING",4857,4810,0,8
+"233","JFK/Umass","Red",33,470,530,"Fall 2019",1,77,"time_period_09","NIGHT",395,753,0,9
+"234","JFK/Umass","Red",33,470,530,"Fall 2019",0,77,"time_period_09","NIGHT",1065,3637,0,9
+"235","Savin Hill","Red",34,440,560,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",241,303,1,1
+"236","Savin Hill","Red",34,440,560,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",6694,125,1,1
+"237","Savin Hill","Red",34,440,560,"Fall 2019",1,77,"time_period_02","EARLY_AM",13031,833,1,2
+"238","Savin Hill","Red",34,440,560,"Fall 2019",0,77,"time_period_02","EARLY_AM",1662,1696,1,2
+"239","Savin Hill","Red",34,440,560,"Fall 2019",0,77,"time_period_03","AM_PEAK",7276,7237,1,3
+"240","Savin Hill","Red",34,440,560,"Fall 2019",1,77,"time_period_03","AM_PEAK",59779,4822,1,3
+"241","Savin Hill","Red",34,440,560,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",37591,2833,1,4
+"242","Savin Hill","Red",34,440,560,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",4819,15022,1,4
+"243","Savin Hill","Red",34,440,560,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",16287,4319,1,5
+"244","Savin Hill","Red",34,440,560,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",4640,27354,1,5
+"245","Savin Hill","Red",34,440,560,"Fall 2019",0,77,"time_period_06","PM_PEAK",4676,63138,1,6
+"246","Savin Hill","Red",34,440,560,"Fall 2019",1,77,"time_period_06","PM_PEAK",12448,3474,1,6
+"247","Savin Hill","Red",34,440,560,"Fall 2019",1,77,"time_period_07","EVENING",6113,2245,1,7
+"248","Savin Hill","Red",34,440,560,"Fall 2019",0,77,"time_period_07","EVENING",2784,42671,1,7
+"249","Savin Hill","Red",34,440,560,"Fall 2019",0,77,"time_period_08","LATE_EVENING",516,11504,1,8
+"250","Savin Hill","Red",34,440,560,"Fall 2019",1,77,"time_period_08","LATE_EVENING",1486,379,1,8
+"251","Savin Hill","Red",34,440,560,"Fall 2019",1,77,"time_period_09","NIGHT",139,142,1,9
+"252","Savin Hill","Red",34,440,560,"Fall 2019",0,77,"time_period_09","NIGHT",92,1899,1,9
+"253","North Quincy","Red",35,500,560,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",18649,587,2,1
+"254","North Quincy","Red",35,500,560,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",18,1725,2,1
+"255","North Quincy","Red",35,500,560,"Fall 2019",0,77,"time_period_02","EARLY_AM",2371,9448,2,2
+"256","North Quincy","Red",35,500,560,"Fall 2019",1,77,"time_period_02","EARLY_AM",41220,2995,2,2
+"257","North Quincy","Red",35,500,560,"Fall 2019",1,77,"time_period_03","AM_PEAK",156174,18180,2,3
+"258","North Quincy","Red",35,500,560,"Fall 2019",0,77,"time_period_03","AM_PEAK",6705,36500,2,3
+"259","North Quincy","Red",35,500,560,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",99983,14684,2,4
+"260","North Quincy","Red",35,500,560,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",11873,43771,2,4
+"261","North Quincy","Red",35,500,560,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",30260,8482,2,5
+"262","North Quincy","Red",35,500,560,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",13957,62834,2,5
+"263","North Quincy","Red",35,500,560,"Fall 2019",1,77,"time_period_06","PM_PEAK",50304,9333,2,6
+"264","North Quincy","Red",35,500,560,"Fall 2019",0,77,"time_period_06","PM_PEAK",19855,177107,2,6
+"265","North Quincy","Red",35,500,560,"Fall 2019",0,77,"time_period_07","EVENING",6189,91628,2,7
+"266","North Quincy","Red",35,500,560,"Fall 2019",1,77,"time_period_07","EVENING",17752,5899,2,7
+"267","North Quincy","Red",35,500,560,"Fall 2019",1,77,"time_period_08","LATE_EVENING",4304,1410,2,8
+"268","North Quincy","Red",35,500,560,"Fall 2019",0,77,"time_period_08","LATE_EVENING",1920,21301,2,8
+"269","North Quincy","Red",35,500,560,"Fall 2019",0,77,"time_period_09","NIGHT",161,2087,2,9
+"270","North Quincy","Red",35,500,560,"Fall 2019",1,77,"time_period_09","NIGHT",363,166,2,9
+"271","Fields Corner","Red",36,440,590,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",17356,31,1,1
+"272","Fields Corner","Red",36,440,590,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",628,1822,1,1
+"273","Fields Corner","Red",36,440,590,"Fall 2019",1,77,"time_period_02","EARLY_AM",36814,2905,1,2
+"274","Fields Corner","Red",36,440,590,"Fall 2019",0,77,"time_period_02","EARLY_AM",3741,6481,1,2
+"275","Fields Corner","Red",36,440,590,"Fall 2019",0,77,"time_period_03","AM_PEAK",12980,30531,1,3
+"276","Fields Corner","Red",36,440,590,"Fall 2019",1,77,"time_period_03","AM_PEAK",95861,18464,1,3
+"277","Fields Corner","Red",36,440,590,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",84700,11325,1,4
+"278","Fields Corner","Red",36,440,590,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",10412,44444,1,4
+"279","Fields Corner","Red",36,440,590,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",16259,72630,1,5
+"280","Fields Corner","Red",36,440,590,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",53917,15640,1,5
+"281","Fields Corner","Red",36,440,590,"Fall 2019",1,77,"time_period_06","PM_PEAK",38727,11460,1,6
+"282","Fields Corner","Red",36,440,590,"Fall 2019",0,77,"time_period_06","PM_PEAK",15305,106960,1,6
+"283","Fields Corner","Red",36,440,590,"Fall 2019",0,77,"time_period_07","EVENING",6134,68546,1,7
+"284","Fields Corner","Red",36,440,590,"Fall 2019",1,77,"time_period_07","EVENING",18560,7113,1,7
+"285","Fields Corner","Red",36,440,590,"Fall 2019",0,77,"time_period_08","LATE_EVENING",1359,29221,1,8
+"286","Fields Corner","Red",36,440,590,"Fall 2019",1,77,"time_period_08","LATE_EVENING",4138,1995,1,8
+"287","Fields Corner","Red",36,440,590,"Fall 2019",1,77,"time_period_09","NIGHT",537,220,1,9
+"288","Fields Corner","Red",36,440,590,"Fall 2019",0,77,"time_period_09","NIGHT",264,6012,1,9
+"289","Wollaston","Red",37,520,580,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",12602,153,2,1
+"290","Wollaston","Red",37,520,580,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",2,234,2,1
+"291","Wollaston","Red",37,520,580,"Fall 2019",0,77,"time_period_02","EARLY_AM",1392,1521,2,2
+"292","Wollaston","Red",37,520,580,"Fall 2019",1,77,"time_period_02","EARLY_AM",27854,762,2,2
+"293","Wollaston","Red",37,520,580,"Fall 2019",1,77,"time_period_03","AM_PEAK",100121,2123,2,3
+"294","Wollaston","Red",37,520,580,"Fall 2019",0,77,"time_period_03","AM_PEAK",5002,5567,2,3
+"295","Wollaston","Red",37,520,580,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",62039,7142,2,4
+"296","Wollaston","Red",37,520,580,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",8633,22634,2,4
+"297","Wollaston","Red",37,520,580,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",15039,5811,2,5
+"298","Wollaston","Red",37,520,580,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",4815,42594,2,5
+"299","Wollaston","Red",37,520,580,"Fall 2019",1,77,"time_period_06","PM_PEAK",13217,6792,2,6
+"300","Wollaston","Red",37,520,580,"Fall 2019",0,77,"time_period_06","PM_PEAK",4779,115678,2,6
+"301","Wollaston","Red",37,520,580,"Fall 2019",0,77,"time_period_07","EVENING",2891,59767,2,7
+"302","Wollaston","Red",37,520,580,"Fall 2019",1,77,"time_period_07","EVENING",6766,5228,2,7
+"303","Wollaston","Red",37,520,580,"Fall 2019",1,77,"time_period_08","LATE_EVENING",2086,813,2,8
+"304","Wollaston","Red",37,520,580,"Fall 2019",0,77,"time_period_08","LATE_EVENING",961,16452,2,8
+"305","Wollaston","Red",37,520,580,"Fall 2019",1,77,"time_period_09","NIGHT",127,82,2,9
+"306","Wollaston","Red",37,520,580,"Fall 2019",0,77,"time_period_09","NIGHT",51,1885,2,9
+"307","Shawmut","Red",38,440,620,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",10390,2,1,1
+"308","Shawmut","Red",38,440,620,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",97,462,1,1
+"309","Shawmut","Red",38,440,620,"Fall 2019",0,77,"time_period_02","EARLY_AM",462,2710,1,2
+"310","Shawmut","Red",38,440,620,"Fall 2019",1,77,"time_period_02","EARLY_AM",20852,1131,1,2
+"311","Shawmut","Red",38,440,620,"Fall 2019",0,77,"time_period_03","AM_PEAK",1807,12506,1,3
+"312","Shawmut","Red",38,440,620,"Fall 2019",1,77,"time_period_03","AM_PEAK",67373,5179,1,3
+"313","Shawmut","Red",38,440,620,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",1303,20577,1,4
+"314","Shawmut","Red",38,440,620,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",40878,1878,1,4
+"315","Shawmut","Red",38,440,620,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",17338,2832,1,5
+"316","Shawmut","Red",38,440,620,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",1749,37004,1,5
+"317","Shawmut","Red",38,440,620,"Fall 2019",0,77,"time_period_06","PM_PEAK",1925,75118,1,6
+"318","Shawmut","Red",38,440,620,"Fall 2019",1,77,"time_period_06","PM_PEAK",13901,3620,1,6
+"319","Shawmut","Red",38,440,620,"Fall 2019",1,77,"time_period_07","EVENING",6711,2174,1,7
+"320","Shawmut","Red",38,440,620,"Fall 2019",0,77,"time_period_07","EVENING",1212,45323,1,7
+"321","Shawmut","Red",38,440,620,"Fall 2019",0,77,"time_period_08","LATE_EVENING",103,13169,1,8
+"322","Shawmut","Red",38,440,620,"Fall 2019",1,77,"time_period_08","LATE_EVENING",1499,301,1,8
+"323","Shawmut","Red",38,440,620,"Fall 2019",0,77,"time_period_09","NIGHT",32,6017,1,9
+"324","Shawmut","Red",38,440,620,"Fall 2019",1,77,"time_period_09","NIGHT",120,44,1,9
+"325","Quincy Center","Red",39,540,600,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",16790,99,2,1
+"326","Quincy Center","Red",39,540,600,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",0,4525,2,1
+"327","Quincy Center","Red",39,540,600,"Fall 2019",1,77,"time_period_02","EARLY_AM",59614,1332,2,2
+"328","Quincy Center","Red",39,540,600,"Fall 2019",0,77,"time_period_02","EARLY_AM",1388,13430,2,2
+"329","Quincy Center","Red",39,540,600,"Fall 2019",1,77,"time_period_03","AM_PEAK",209637,6724,2,3
+"330","Quincy Center","Red",39,540,600,"Fall 2019",0,77,"time_period_03","AM_PEAK",4337,41001,2,3
+"331","Quincy Center","Red",39,540,600,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",138753,5090,2,4
+"332","Quincy Center","Red",39,540,600,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",5018,79523,2,4
+"333","Quincy Center","Red",39,540,600,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",54394,3657,2,5
+"334","Quincy Center","Red",39,540,600,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",2852,99259,2,5
+"335","Quincy Center","Red",39,540,600,"Fall 2019",0,77,"time_period_06","PM_PEAK",7058,229866,2,6
+"336","Quincy Center","Red",39,540,600,"Fall 2019",1,77,"time_period_06","PM_PEAK",51042,8702,2,6
+"337","Quincy Center","Red",39,540,600,"Fall 2019",0,77,"time_period_07","EVENING",2397,100907,2,7
+"338","Quincy Center","Red",39,540,600,"Fall 2019",1,77,"time_period_07","EVENING",32886,2590,2,7
+"339","Quincy Center","Red",39,540,600,"Fall 2019",1,77,"time_period_08","LATE_EVENING",8860,294,2,8
+"340","Quincy Center","Red",39,540,600,"Fall 2019",0,77,"time_period_08","LATE_EVENING",264,22753,2,8
+"341","Quincy Center","Red",39,540,600,"Fall 2019",0,77,"time_period_09","NIGHT",22,2870,2,9
+"342","Quincy Center","Red",39,540,600,"Fall 2019",1,77,"time_period_09","NIGHT",781,31,2,9
+"343","Ashmont","Red",40,440,650,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",743,0,1,1
+"344","Ashmont","Red",40,440,650,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",0,3853,1,1
+"345","Ashmont","Red",40,440,650,"Fall 2019",0,77,"time_period_02","EARLY_AM",0,12337,1,2
+"346","Ashmont","Red",40,440,650,"Fall 2019",1,77,"time_period_02","EARLY_AM",103444,0,1,2
+"347","Ashmont","Red",40,440,650,"Fall 2019",1,77,"time_period_03","AM_PEAK",241181,0,1,3
+"348","Ashmont","Red",40,440,650,"Fall 2019",0,77,"time_period_03","AM_PEAK",0,38739,1,3
+"349","Ashmont","Red",40,440,650,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",0,61480,1,4
+"350","Ashmont","Red",40,440,650,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",147921,0,1,4
+"351","Ashmont","Red",40,440,650,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",80549,0,1,5
+"352","Ashmont","Red",40,440,650,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",0,118221,1,5
+"353","Ashmont","Red",40,440,650,"Fall 2019",1,77,"time_period_06","PM_PEAK",69616,0,1,6
+"354","Ashmont","Red",40,440,650,"Fall 2019",0,77,"time_period_06","PM_PEAK",0,220672,1,6
+"355","Ashmont","Red",40,440,650,"Fall 2019",1,77,"time_period_07","EVENING",40482,0,1,7
+"356","Ashmont","Red",40,440,650,"Fall 2019",0,77,"time_period_07","EVENING",0,103165,1,7
+"357","Ashmont","Red",40,440,650,"Fall 2019",1,77,"time_period_08","LATE_EVENING",9591,0,1,8
+"358","Ashmont","Red",40,440,650,"Fall 2019",0,77,"time_period_08","LATE_EVENING",0,30148,1,8
+"359","Ashmont","Red",40,440,650,"Fall 2019",0,77,"time_period_09","NIGHT",0,910,1,9
+"360","Ashmont","Red",40,440,650,"Fall 2019",1,77,"time_period_09","NIGHT",1406,0,1,9
+"361","Quincy Adams","Red",41,560,620,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",0,1585,2,1
+"362","Quincy Adams","Red",41,560,620,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",15298,0,2,1
+"363","Quincy Adams","Red",41,560,620,"Fall 2019",1,77,"time_period_02","EARLY_AM",42476,5446,2,2
+"364","Quincy Adams","Red",41,560,620,"Fall 2019",0,77,"time_period_02","EARLY_AM",110,6433,2,2
+"365","Quincy Adams","Red",41,560,620,"Fall 2019",0,77,"time_period_03","AM_PEAK",565,15865,2,3
+"366","Quincy Adams","Red",41,560,620,"Fall 2019",1,77,"time_period_03","AM_PEAK",137256,5073,2,3
+"367","Quincy Adams","Red",41,560,620,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",70463,3738,2,4
+"368","Quincy Adams","Red",41,560,620,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",352,26221,2,4
+"369","Quincy Adams","Red",41,560,620,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",20964,1624,2,5
+"370","Quincy Adams","Red",41,560,620,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",307,52538,2,5
+"371","Quincy Adams","Red",41,560,620,"Fall 2019",0,77,"time_period_06","PM_PEAK",841,144985,2,6
+"372","Quincy Adams","Red",41,560,620,"Fall 2019",1,77,"time_period_06","PM_PEAK",31378,1842,2,6
+"373","Quincy Adams","Red",41,560,620,"Fall 2019",1,77,"time_period_07","EVENING",11136,1742,2,7
+"374","Quincy Adams","Red",41,560,620,"Fall 2019",0,77,"time_period_07","EVENING",561,61514,2,7
+"375","Quincy Adams","Red",41,560,620,"Fall 2019",1,77,"time_period_08","LATE_EVENING",1848,435,2,8
+"376","Quincy Adams","Red",41,560,620,"Fall 2019",0,77,"time_period_08","LATE_EVENING",124,15110,2,8
+"377","Quincy Adams","Red",41,560,620,"Fall 2019",0,77,"time_period_09","NIGHT",2,1496,2,9
+"378","Quincy Adams","Red",41,560,620,"Fall 2019",1,77,"time_period_09","NIGHT",190,16,2,9
+"379","Braintree","Red",42,560,640,"Fall 2019",1,77,"time_period_01","VERY_EARLY_MORNING",0,0,2,1
+"380","Braintree","Red",42,560,640,"Fall 2019",0,77,"time_period_01","VERY_EARLY_MORNING",0,1923,2,1
+"381","Braintree","Red",42,560,640,"Fall 2019",1,77,"time_period_02","EARLY_AM",96199,0,2,2
+"382","Braintree","Red",42,560,640,"Fall 2019",0,77,"time_period_02","EARLY_AM",0,6412,2,2
+"383","Braintree","Red",42,560,640,"Fall 2019",1,77,"time_period_03","AM_PEAK",132333,0,2,3
+"384","Braintree","Red",42,560,640,"Fall 2019",0,77,"time_period_03","AM_PEAK",0,10549,2,3
+"385","Braintree","Red",42,560,640,"Fall 2019",0,77,"time_period_04","MIDDAY_BASE",0,25569,2,4
+"386","Braintree","Red",42,560,640,"Fall 2019",1,77,"time_period_04","MIDDAY_BASE",50304,0,2,4
+"387","Braintree","Red",42,560,640,"Fall 2019",1,77,"time_period_05","MIDDAY_SCHOOL",22404,0,2,5
+"388","Braintree","Red",42,560,640,"Fall 2019",0,77,"time_period_05","MIDDAY_SCHOOL",0,72016,2,5
+"389","Braintree","Red",42,560,640,"Fall 2019",1,77,"time_period_06","PM_PEAK",31235,0,2,6
+"390","Braintree","Red",42,560,640,"Fall 2019",0,77,"time_period_06","PM_PEAK",0,145157,2,6
+"391","Braintree","Red",42,560,640,"Fall 2019",0,77,"time_period_07","EVENING",0,42161,2,7
+"392","Braintree","Red",42,560,640,"Fall 2019",1,77,"time_period_07","EVENING",13484,0,2,7
+"393","Braintree","Red",42,560,640,"Fall 2019",0,77,"time_period_08","LATE_EVENING",0,11500,2,8
+"394","Braintree","Red",42,560,640,"Fall 2019",1,77,"time_period_08","LATE_EVENING",2897,0,2,8
+"395","Braintree","Red",42,560,640,"Fall 2019",1,77,"time_period_09","NIGHT",261,0,2,9
+"396","Braintree","Red",42,560,640,"Fall 2019",0,77,"time_period_09","NIGHT",0,107,2,9
