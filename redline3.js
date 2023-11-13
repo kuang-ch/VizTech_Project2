@@ -72,7 +72,7 @@ function redLineInbound() {
   let linewidth = netOn - netOff;
 
   //Assigning Slider value
-  userValue = slider.value()
+  userValue = slider.value();
 
   //Filter data to only include arrays where sliderRef = userValue
   const filteredData = redData.filter(data => data.sliderRef === userValue);
