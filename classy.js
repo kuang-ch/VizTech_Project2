@@ -10,7 +10,7 @@ let filteredData = [];
 
 //Variables for controlling mapping
 let minPremapped = 0;
-let maxPremapped = 800000;
+let maxPremapped = 1250000;
 let minPostmapped = 0;
 let maxPostmapped = 10;
 
@@ -21,8 +21,10 @@ let greenRouteColor = "#009245";
 let blueRouteColor = "#2e3192";
 
 //Offsetting Plots
-let inboundOffset = -100;
-let outboundOffset = +400;
+let inboundOffset = 0;
+let outboundOffset = 525 + 120;
+let yOffset = 30;
+let arrowWeight = 2.5;
 
 //Loading in CSV
 function preload() {
@@ -40,7 +42,8 @@ function preload() {
           ridersOn: int(row.get('on')),
           ridersOff: int(row.get('off')),
           sliderRef: int(row.get('slider_ref')),
-          subLine: int(row.get('Alt'))
+          subLine: int(row.get('Alt')),
+          displayTime: row.get('timeDisplay')
         }
         stopsData.push(rowData);
       }
@@ -48,12 +51,20 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1600, 800);
+  createCanvas(1500, 800);
+
+  //Getting rid of default cursor
+  noCursor();
 
   //Creating Slider
   slider = createSlider(1, 9, 1, 1);
-  slider.position(10, 10);
+  slider.position(25, 25);
   slider.style('width', '160px');
+
+  // Change the color of the slider
+  slider.style('background-color', '#777777'); // Set the background color
+  slider.style('color', '#333333'); // Set the text color
+  slider.style('border', '1px #333333'); // Set the border color
 
   //Accessing redData
   for (let i = 0; i < stopsData.length; i++) {
@@ -71,6 +82,7 @@ function setup() {
       arrayData.ridersOn,
       arrayData.ridersOff,
       arrayData.subLine,
+      arrayData.displayTime,
     );
 
     //Push Inbound object to global array
@@ -79,7 +91,7 @@ function setup() {
 }
 
 class train { //Using classes to create the "trainArtifacts" array
-  constructor(direction, route, sliderRef, stopName, order, x, y, ridersOn, ridersOff, subLine) {
+  constructor(direction, route, sliderRef, stopName, order, x, y, ridersOn, ridersOff, subLine, displayTime) {
     this.direction = direction;
     this.route = route;
     this.sliderRef = sliderRef;
@@ -90,6 +102,7 @@ class train { //Using classes to create the "trainArtifacts" array
     this.ridersOn = ridersOn;
     this.ridersOff = ridersOff;
     this.subLine = subLine;
+    this.displayTime = displayTime;
   }
 }
 
@@ -132,8 +145,8 @@ function drawInboundTrain(trainInstances, route, trainDirection, colorRoute, xOf
     linewidth = abs(netOn - netOff);
 
     //console.log("this is linewidth:", linewidth)
-    let actualWidth = map(linewidth, minPremapped, maxPremapped, minPostmapped, maxPostmapped);
-    actualWidth = Math.min(actualWidth, maxLinewidth);
+    let actualWidth = mapAndSnap(linewidth, minPremapped, maxPremapped, minPostmapped, maxPostmapped);
+    //console.log(actualWidth); TROUBLESHOOTING
 
 
     if (stopB) { //If there is a pair, draw a line between them
@@ -141,7 +154,7 @@ function drawInboundTrain(trainInstances, route, trainDirection, colorRoute, xOf
       //Drawing the Lines
       stroke(color(colorRoute));
       strokeWeight(actualWidth);
-      line(stopA.x + xOffset, stopA.y, stopB.x + xOffset, stopB.y)
+      line(stopA.x + xOffset, stopA.y + yOffset, stopB.x + xOffset, stopB.y + yOffset)
     }
 
     if (!stopB) {//If there is not a pair, draw a line between each subline's LOWEST ORDER and the JUNCTION BREAK
@@ -166,7 +179,7 @@ function drawInboundTrain(trainInstances, route, trainDirection, colorRoute, xOf
         //Drawing lines between the Junctions
         stroke(color(colorRoute));
         strokeWeight(actualWidth);
-        line(junctionBreak.x + xOffset, junctionBreak.y, nextJunction.x + xOffset, nextJunction.y);
+        line(junctionBreak.x + xOffset, junctionBreak.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset);
       }
     }
   };
@@ -211,8 +224,8 @@ function drawOutboundTrain(trainInstances, route, trainDirection, colorRoute, xO
     linewidth = abs(netOn - netOff);
 
     //console.log("this is linewidth:", linewidth)
-    let actualWidth = map(linewidth, minPremapped, maxPremapped, minPostmapped, maxPostmapped);
-    actualWidth = Math.min(actualWidth, maxLinewidth);
+    let actualWidth = mapAndSnap(linewidth, minPremapped, maxPremapped, minPostmapped, maxPostmapped);
+    //console.log(actualWidth); TROUBLESHOOTING
 
 
     if (stopB) { //If there is a pair, draw a line between them
@@ -220,7 +233,7 @@ function drawOutboundTrain(trainInstances, route, trainDirection, colorRoute, xO
       //Drawing the Lines
       stroke(color(colorRoute));
       strokeWeight(actualWidth);
-      line(stopB.x + xOffset, stopB.y, stopA.x + xOffset, stopA.y)
+      line(stopB.x + xOffset, stopB.y + yOffset, stopA.x + xOffset, stopA.y + yOffset)
     }
 
     if (!stopB) {//If there is not a pair, draw a line between each subline's LOWEST ORDER and the JUNCTION BREAK
@@ -245,10 +258,129 @@ function drawOutboundTrain(trainInstances, route, trainDirection, colorRoute, xO
         //Drawing lines between the Junctions
         stroke(color(colorRoute));
         strokeWeight(actualWidth);
-        line(junctionBreak.x + xOffset, junctionBreak.y, nextJunction.x + xOffset, nextJunction.y);
+        line(junctionBreak.x + xOffset, junctionBreak.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset);
       }
     }
   };
+}
+
+function mapAndSnap(value, start1, stop1, start2, stop2) { //Snapping so it looks clean
+  let mappedValue = map(value, start1, stop1, start2, stop2);
+  let snappedValue = (round(mappedValue / 1) * 1) + 0.25; //round to nearest 0.5
+  return snappedValue;
+}
+
+function absolutelyDotty(route, circleColor) { //Drawing the dots!!
+  filteredData = trainArtifacts.filter(train => train.route === route); //subsetting by ROUTE
+  for (let i = 0; i < filteredData.length; i++) {
+    let currentStop = filteredData[i];
+
+    //Drawing the dots
+    stroke(circleColor);
+    strokeWeight(0.5);
+    circle(currentStop.x + inboundOffset, currentStop.y + yOffset, 3);
+    circle(currentStop.x + outboundOffset, currentStop.y + yOffset, 3);
+  }
+}
+
+function arrowheads() {
+  //Blue
+  stroke(blueRouteColor);
+  strokeWeight(arrowWeight);
+  beginShape();
+  vertex(400 + inboundOffset, 310 + yOffset);
+  vertex(400 + inboundOffset, 300 + yOffset);
+  vertex(410 + inboundOffset, 300 + yOffset);
+  endShape(OPEN);
+  beginShape();
+  vertex(630 + outboundOffset, 180 + yOffset);
+  vertex(640 + outboundOffset, 180 + yOffset);
+  vertex(640 + outboundOffset, 190 + yOffset);
+  endShape(OPEN);
+
+  //Green
+  stroke(greenRouteColor);
+  strokeWeight(arrowWeight);
+  beginShape(); //BLine
+  vertex(120 + inboundOffset, 400 + yOffset);
+  vertex(120 + inboundOffset, 410 + yOffset);
+  vertex(130 + inboundOffset, 410 + yOffset);
+  endShape(OPEN); //CLine
+  beginShape();
+  vertex(130 + inboundOffset, 490 + yOffset);
+  vertex(130 + inboundOffset, 500 + yOffset);
+  vertex(140 + inboundOffset, 500 + yOffset);
+  endShape(OPEN); //DLine
+  beginShape();
+  vertex(160 + inboundOffset, 520 + yOffset);
+  vertex(160 + inboundOffset, 530 + yOffset);
+  vertex(170 + inboundOffset, 530 + yOffset);
+  endShape(OPEN);
+  endShape(OPEN); //ELine
+  beginShape();
+  vertex(210 + inboundOffset, 520 + yOffset);
+  vertex(210 + inboundOffset, 530 + yOffset);
+  vertex(220 + inboundOffset, 530 + yOffset);
+  endShape(OPEN);
+  beginShape();
+  vertex(380 + outboundOffset, 210 + yOffset);
+  vertex(380 + outboundOffset, 200 + yOffset);
+  vertex(390 + outboundOffset, 200 + yOffset);
+  endShape(OPEN);
+
+  //Orange
+  stroke(orangeRouteColor);
+  strokeWeight(arrowWeight);
+  beginShape();
+  vertex(140 + inboundOffset, 670 + yOffset);
+  vertex(140 + inboundOffset, 680 + yOffset);
+  vertex(150 + inboundOffset, 680 + yOffset);
+  endShape(OPEN);
+  beginShape();
+  vertex(450 + outboundOffset, 30 + yOffset);
+  vertex(460 + outboundOffset, 20 + yOffset);
+  vertex(470 + outboundOffset, 30 + yOffset);
+  endShape(OPEN);
+
+  //Red
+  stroke(redRouteColor);
+  strokeWeight(arrowWeight);
+  beginShape();
+  vertex(430 + inboundOffset, 640 + yOffset);
+  vertex(440 + inboundOffset, 650 + yOffset);
+  vertex(450 + inboundOffset, 640 + yOffset);
+  endShape(OPEN);
+  beginShape();
+  vertex(550 + inboundOffset, 630 + yOffset);
+  vertex(560 + inboundOffset, 640 + yOffset);
+  vertex(570 + inboundOffset, 630 + yOffset);
+  endShape(OPEN);
+  beginShape();
+  vertex(190 + outboundOffset, 140 + yOffset);
+  vertex(190 + outboundOffset, 130 + yOffset);
+  vertex(200 + outboundOffset, 130 + yOffset);
+  endShape(OPEN);
+}
+
+function showTime() {
+  userValue = slider.value();
+
+  filteredData = trainArtifacts.filter(train => train.sliderRef === userValue);
+  let displayStop = filteredData[0];
+  console.log(displayStop);
+
+  let centerX = width / 2;
+  let centerY = height / 2;
+
+  textSize(36);
+  textAlign(LEFT, CENTER);
+  text(displayStop.displayTime, mouseX, mouseY + 35);
+}
+
+function mouse(){
+  stroke("#333333");
+  strokeWeight(3);
+  ellipse(mouseX, mouseY, 10, 10)
 }
 
 //MBTA Map Redrawn
@@ -256,15 +388,30 @@ function draw() {
   //Background color
   background(255, 255, 255);
 
+  //Arrowheads
+  arrowheads();
+
   //Inbound Trains
-  drawInboundTrain(trainArtifacts, "Red", 0, redRouteColor, inboundOffset);
-  drawInboundTrain(trainArtifacts, "Orange", 0, orangeRouteColor, inboundOffset);
-  drawInboundTrain(trainArtifacts, "Green", 0, greenRouteColor, inboundOffset);
   drawInboundTrain(trainArtifacts, "Blue", 0, blueRouteColor, inboundOffset);
+  drawInboundTrain(trainArtifacts, "Green", 0, greenRouteColor, inboundOffset);
+  drawInboundTrain(trainArtifacts, "Orange", 0, orangeRouteColor, inboundOffset);
+  drawInboundTrain(trainArtifacts, "Red", 0, redRouteColor, inboundOffset);
 
   //Outbound Trains
-  drawOutboundTrain(trainArtifacts, "Red", 1, redRouteColor, outboundOffset);
-  drawOutboundTrain(trainArtifacts, "Orange", 1, orangeRouteColor, outboundOffset);
-  drawOutboundTrain(trainArtifacts, "Green", 1, greenRouteColor, outboundOffset);
   drawOutboundTrain(trainArtifacts, "Blue", 1, blueRouteColor, outboundOffset);
+  drawOutboundTrain(trainArtifacts, "Green", 1, greenRouteColor, outboundOffset);
+  drawOutboundTrain(trainArtifacts, "Orange", 1, orangeRouteColor, outboundOffset);
+  drawOutboundTrain(trainArtifacts, "Red", 1, redRouteColor, outboundOffset);
+
+  //Little dots
+  absolutelyDotty("Blue", blueRouteColor);
+  absolutelyDotty("Green", greenRouteColor);
+  absolutelyDotty("Orange", orangeRouteColor);
+  absolutelyDotty("Red", redRouteColor);
+
+  //Display Time
+  showTime();
+
+  //Mouse
+  mouse();
 }
