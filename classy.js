@@ -167,7 +167,7 @@ function drawInboundTrain(trainInstances, route, trainDirection, colorRoute, xOf
       strokeWeight(actualWidth);
       line(stopA.x + xOffset, stopA.y + yOffset, stopB.x + xOffset, stopB.y + yOffset)
 
-      if (mouseIsNearLine(stopA.x + xOffset, stopA.y + yOffset, stopB.x + xOffset, stopB.y + yOffset, 5)) {
+      if (mouseIsNearLine(stopA.x + xOffset, stopA.y + yOffset, stopB.x + xOffset, stopB.y + yOffset, 1)) {
         push();
         noStroke();
         fill(colorRoute);
