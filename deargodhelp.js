@@ -54,14 +54,12 @@ function preload() {
 function setup() {
   let mbtaCanvas = createCanvas(1500, 800);
   mbtaCanvas.parent('mbtaMap');
-  noCursor();
 
   //Getting rid of default cursor
   //noCursor();
 
   //Creating Slider
   slider = createSlider(1, 9, 1, 1);
-  slider.id('mySlider');
   slider.position(25, 25);
   slider.style('width', '160px');
 
@@ -109,6 +107,8 @@ class train { //Using classes to create the "trainArtifacts" array
     this.displayTime = displayTime;
   }
 }
+
+let previousUserValue = null; 
 
 function drawInboundTrain(trainInstances, route, trainDirection, colorRoute, xOffset) {
   //Narrowing down to only the specified time period
@@ -173,16 +173,10 @@ function drawInboundTrain(trainInstances, route, trainDirection, colorRoute, xOf
     let displayStop = stopA.stopName;
 
     let actualWidth = mapAndSnap(linewidth, minPremapped, maxPremapped, minPostmapped, maxPostmapped);
-
-    let stopBLoopExecuted = false;
     if (stopB) { //If there is a pair, draw a line between them
-      //console.log("This is pair:", stopA, stopB);
-      //Drawing the Lines
       stroke(color(colorRoute));
       strokeWeight(actualWidth);
       line(stopA.x + xOffset, stopA.y + yOffset, stopB.x + xOffset, stopB.y + yOffset)
-
-      mouseIsNearLine(stopA.x + xOffset, stopA.y + yOffset, stopB.x + xOffset, stopB.y + yOffset, 2.5, colorRoute, displayStop, displayRiders);
     }
 
     if (!stopB) {//If there is not a pair, draw a line between each subline's LOWEST ORDER and the JUNCTION BREAK
@@ -193,113 +187,11 @@ function drawInboundTrain(trainInstances, route, trainDirection, colorRoute, xOf
           stroke(color(colorRoute));
           strokeWeight(actualWidth);
           line(junctionBreak.x + xOffset, junctionBreak.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset);
-          mouseIsNearLine(junctionBreak.x + xOffset, junctionBreak.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset, 2.5, colorRoute, junctionBreak.stopName, displayRiders);
-          //console.log(nextJunction);
-          //console.log(displayRiders);
-          //console.log(junctionBreak.x + xOffset, junctionBreak.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset, junctionBreak.stopName, displayRiders);
-          //console.log("this is end");
+          console.log(junctionBreak.stopName, nextJunction.x, displayRiders);
         } else {
           stroke(color(colorRoute));
           strokeWeight(actualWidth);
           line(junctionBreakGreen.x + xOffset, junctionBreakGreen.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset);
-          mouseIsNearLine(junctionBreakGreen.x + xOffset, junctionBreakGreen.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset, 2.5, colorRoute, junctionBreakGreen.stopName, displayRiders)
-        }
-      }
-    }
-  };
-}
-
-function drawOutboundTrain(trainInstances, route, trainDirection, colorRoute, xOffset) {
-  //Narrowing down to only the specified time period
-  userValue = slider.value();
-  filteredData = trainInstances.filter(train => train.sliderRef === userValue && train.route === route && train.direction == trainDirection); //subsetting by TIME PERIOD  and ROUTE
-  filteredData.sort((a, b) => b.order - a.order); //Sorting by ORDER
-  //console.log(filteredData)
-
-  //Declaring the stops
-  let stopA;
-  let stopB;
-  let linewidth;
-  let junctionBreak;
-  let junctionBreakGreen;
-
-  junctionBreak = filteredData
-    .filter(train => train.direction === trainDirection && train.subLine === 0)
-    .sort((a, b) => b.order - a.order) //Sort in descending order
-    .find(train => true);
-
-  if (route === "Green") {
-    junctionBreakGreen = filteredData
-      .filter(train => train.direction === trainDirection)
-      .find(train => train.order === 62);
-  } else {
-  }
-
-  //Setting up variable linewidth
-  let netOn = 0
-  let netOff = 0
-
-  //Iterating through filteredData to create pairs of stopA and stopB
-  for (let j = 0; j < filteredData.length - 1; j++) {
-    stopA = filteredData[j];
-
-    //Find the next stopB based on same DIRECTION, SUBLINE, >ORDER;
-    stopB = filteredData.find(train =>
-      train.direction === 1 &&
-      train.subLine === stopA.subLine &&
-      train.order < stopA.order //Makes sure that order stopB order < stopA
-    );
-
-    //Update netOn and netOff for each iteration
-    netOn += stopA.ridersOn;
-    netOff += stopA.ridersOff;
-
-    linewidth = abs(netOn - netOff);
-
-    let displayRiders = Math.round(linewidth / numberServiceDays);
-    let displayStop = stopA.stopName;
-
-    //console.log("this is linewidth:", linewidth)
-    let actualWidth = mapAndSnap(linewidth, minPremapped, maxPremapped, minPostmapped, maxPostmapped);
-    //console.log(actualWidth); TROUBLESHOOTING
-
-    if (stopB) { //If there is a pair, draw a line between them
-      //console.log("This is pair:", stopA, stopB);
-      //Drawing the Lines
-      stroke(color(colorRoute));
-      strokeWeight(actualWidth);
-      line(stopB.x + xOffset, stopB.y + yOffset, stopA.x + xOffset, stopA.y + yOffset);
-      mouseIsNearLine(stopA.x + xOffset, stopA.y + yOffset, stopB.x + xOffset, stopB.y + yOffset, 2.5, colorRoute, displayStop, displayRiders);
-    }
-
-    if (!stopB) {//If there is not a pair, draw a line between each subline's LOWEST ORDER and the JUNCTION BREAK
-      const junctions = {};
-
-      //Finding other Junctions
-      filteredData
-        .filter(train => train.subLine !== 0)
-        .forEach(train => {
-          if (!junctions[train.subLine] || train.order < junctions[train.subLine].order) {
-            junctions[train.subLine] = train;
-          }
-        })
-
-      //Use Object.values to get an array of junctions
-      const junctionArray = Object.values(junctions);
-      for (let r = 0; r < junctionArray.length; r++) {//This is actual code for drawing those lines
-        let nextJunction = junctionArray[r];
-
-        if (nextJunction.subLine != 4) {
-          //Drawing lines between the Junctions
-          stroke(color(colorRoute));
-          strokeWeight(actualWidth);
-          line(junctionBreak.x + xOffset, junctionBreak.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset);
-          mouseIsNearLine(junctionBreak.x + xOffset, junctionBreak.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset, 2.5, colorRoute, junctionBreak.stopName, displayRiders);
-        } else {
-          stroke(color(colorRoute));
-          strokeWeight(actualWidth);
-          line(junctionBreakGreen.x + xOffset, junctionBreakGreen.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset);
-          mouseIsNearLine(junctionBreakGreen.x + xOffset, junctionBreakGreen.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset, 2.5, colorRoute, junctionBreakGreen.stopName, displayRiders);
         }
       }
     }
@@ -413,22 +305,15 @@ function showTime() {
   let centerX = width / 2;
   let centerY = height / 2;
 
-  push()
-  fill("#333333");
-  noStroke();
-  textSize(20);
-  textAlign(LEFT, TOP);
-  text(displayStop.displayTime, 27.5, 50);
-  pop();
+  textSize(36);
+  textAlign(LEFT, CENTER);
+  text(displayStop.displayTime, mouseX, mouseY + 35);
 }
 
 function mouse() {
-  push();
-  noFill();
   stroke("#333333");
   strokeWeight(3);
-  ellipse(mouseX, mouseY, 10, 10);
-  pop();
+  ellipse(mouseX, mouseY, 10, 10)
 }
 
 function mouseIsNearLine(x1, y1, x2, y2, threshold, colorRoute, displayStop, displayRiders) {
@@ -440,17 +325,20 @@ function mouseIsNearLine(x1, y1, x2, y2, threshold, colorRoute, displayStop, dis
   if (distance < threshold) {
     let textWidthStop = textWidth(displayStop);
     let whiteBoxHeight = 32.5;
-    let whiteBoxWidth = textWidthStop + 50;
+    let whiteBoxWidth = textWidthStop + 10;
 
     push();
     noStroke();
     fill("#FFFFFF");
-    rect(25, 70, whiteBoxWidth, whiteBoxHeight);
+    rect(mouseX, mouseY - (whiteBoxHeight/2), whiteBoxWidth, whiteBoxHeight);
     fill(colorRoute);
     textSize(10.5);
     textAlign(LEFT, TOP);
-    let displayStopText = text(displayStop, 27.5, 71); 
-    let displayRidersText = text(displayRiders + " riders", 27.5, 82.5);
+    let displayStopText = text(displayStop, mouseX + 10, mouseY - 10); 
+    let displayRidersText = text(displayRiders + " riders", mouseX + 10, mouseY);
+
+    displayStopText.style('z-index', '10');
+    displayRidersText.style('z-index', '10');
     pop();
   };
 }
@@ -484,18 +372,6 @@ function distToLine(px, py, x1, y1, x2, y2) {
   return Math.sqrt(dx * dx + dy * dy);
 }
 
-function removeDuplicatesFromArray(inputArray) {
-  const uniqueSet = new Set();
-
-  return inputArray.filter(element => {
-    if (!uniqueSet.has(element)) {
-      uniqueSet.add(element);
-      return true;
-    }
-    return false;
-  });
-}
-
 //MBTA Map Redrawn
 function draw() {
   //Background color
@@ -523,7 +399,7 @@ function draw() {
   absolutelyDotty("Red", redRouteColor);
 
   //Display Time
-  showTime();
+  //showTime();
 
   //Mouse
   mouse();

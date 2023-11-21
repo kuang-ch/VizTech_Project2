@@ -6,3 +6,28 @@ html, body {
 canvas {
   display: block;
 }
+
+#mySlider {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-color: #ebebeb !important;
+
+  cursor: none;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+}
+
+#mySlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* Set thumb color */
+  background-color: #333333;
+
+  /* Set thumb dimensions */
+  width: 15px;
+  height: 15px;
+
+  border-radius: 50%;
+}
