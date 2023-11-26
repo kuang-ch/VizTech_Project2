@@ -2,12 +2,12 @@
 let stopsTable;
 let stopsData = []; //Declaring an array
 let slider;
-let userValue;
 let mbtaLineWidth = 5;
 let maxLinewidth = 30; //setting the maximum linewidth
 let trainArtifacts = [];
 let filteredData = [];
 let numberServiceDays = 77;
+let keyValue = null;
 
 //Variables for controlling mapping
 let minPremapped = 0;
@@ -26,6 +26,9 @@ let inboundOffset = 0;
 let outboundOffset = 525 + 120;
 let yOffset = 30;
 let arrowWeight = 2.5;
+
+//Mouse Stop
+let clickedStop = null;
 
 //Loading in CSV
 function preload() {
@@ -168,7 +171,7 @@ function drawInboundTrain(trainInstances, route, trainDirection, colorRoute, xOf
     netOn += stopA.ridersOn;
     netOff += stopA.ridersOff;
     linewidth = abs(netOn - netOff);
-    
+
     let displayRiders = Math.round(linewidth / numberServiceDays);
     let displayStop = stopA.stopName;
 
@@ -176,8 +179,6 @@ function drawInboundTrain(trainInstances, route, trainDirection, colorRoute, xOf
 
     let stopBLoopExecuted = false;
     if (stopB) { //If there is a pair, draw a line between them
-      //console.log("This is pair:", stopA, stopB);
-      //Drawing the Lines
       stroke(color(colorRoute));
       strokeWeight(actualWidth);
       line(stopA.x + xOffset, stopA.y + yOffset, stopB.x + xOffset, stopB.y + yOffset)
@@ -194,10 +195,6 @@ function drawInboundTrain(trainInstances, route, trainDirection, colorRoute, xOf
           strokeWeight(actualWidth);
           line(junctionBreak.x + xOffset, junctionBreak.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset);
           mouseIsNearLine(junctionBreak.x + xOffset, junctionBreak.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset, 2.5, colorRoute, junctionBreak.stopName, displayRiders);
-          //console.log(nextJunction);
-          //console.log(displayRiders);
-          //console.log(junctionBreak.x + xOffset, junctionBreak.y + yOffset, nextJunction.x + xOffset, nextJunction.y + yOffset, junctionBreak.stopName, displayRiders);
-          //console.log("this is end");
         } else {
           stroke(color(colorRoute));
           strokeWeight(actualWidth);
@@ -434,26 +431,38 @@ function mouse() {
 function mouseIsNearLine(x1, y1, x2, y2, threshold, colorRoute, displayStop, displayRiders) {
   // Calculate the distance from the mouse to the line
   let distance = distToLine(mouseX, mouseY, x1, y1 - 5, x2, y2 + 5);
+  let textWidthStop = textWidth(displayStop);
+  let whiteBoxHeight = 50;
+  let whiteBoxWidth = textWidthStop + 50;
 
-  //console.log(mouseX, mouseY, distance);
-  // Check if the distance is within the threshold
   if (distance < threshold) {
-    let textWidthStop = textWidth(displayStop);
-    let whiteBoxHeight = 32.5;
-    let whiteBoxWidth = textWidthStop + 50;
-
     push();
     noStroke();
     fill("#FFFFFF");
     rect(25, 70, whiteBoxWidth, whiteBoxHeight);
     fill(colorRoute);
-    textSize(10.5);
+    textSize(20);
     textAlign(LEFT, TOP);
-    let displayStopText = text(displayStop, 27.5, 71); 
-    let displayRidersText = text(displayRiders + " riders", 27.5, 82.5);
+    let displayStopText = text(displayStop, 27.5, 71);
+    let displayRidersText = text(displayRiders + " riders", 27.5, 92.5);
     pop();
+
+    if (mouseIsPressed) {
+      clickedStop = displayStop;
+    }
   };
 }
+
+function keyPressed() {
+    if (keyCode === LEFT_ARROW && keyValue > 1) {
+      keyValue--;
+    } else if (keyCode === RIGHT_ARROW && keyValue < 9) {
+      keyValue++;
+    }
+    console.log(keyValue);
+    slider.value(keyValue);
+    return false;
+  }
 
 function distToLine(px, py, x1, y1, x2, y2) {
   let A = px - x1;
@@ -527,6 +536,4 @@ function draw() {
 
   //Mouse
   mouse();
-
-  //Testing
 }
