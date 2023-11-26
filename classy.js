@@ -529,9 +529,9 @@ function introPage() {
   textSize(40);
   textAlign(LEFT, TOP);
   text("This is a visualization of the MBTA (Boston's subway system).", 27.5, 50);
-  text("It shows how busy each line is throughout different times during the day.", 27.5, 92.5);
-  text("Use the arrow (L/R) keys to toggle through the day.", 27.5, 172.5);
-  text("Hover to see stop specific rider data.", 27.5, 212.5);
+  text("It shows how busy each line is throughout different times during the day.", 27.5, 100);
+  text("Use the arrow (L/R) keys to toggle through the day.", 27.5, 200);
+  text("Hover to see stop specific rider data.", 27.5, 250);
   text("Click to continue...", 27.5, 700.5);
   textSize(20);
   textStyle(ITALIC);
