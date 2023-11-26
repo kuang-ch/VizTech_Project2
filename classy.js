@@ -7,7 +7,7 @@ let maxLinewidth = 30; //setting the maximum linewidth
 let trainArtifacts = [];
 let filteredData = [];
 let numberServiceDays = 77;
-let keyValue = null;
+let keyValue = 1;
 
 //Variables for controlling mapping
 let minPremapped = 0;
@@ -29,6 +29,9 @@ let arrowWeight = 2.5;
 
 //Mouse Stop
 let clickedStop = null;
+
+//Intro page
+let introDrawn = true;
 
 //Loading in CSV
 function preload() {
@@ -56,7 +59,8 @@ function preload() {
 
 function setup() {
   let mbtaCanvas = createCanvas(1500, 800);
-  mbtaCanvas.parent('mbtaMap');
+  let mbtaDiv = select('#mbtaMap');
+  mbtaCanvas.parent(mbtaDiv);
   noCursor();
 
   //Getting rid of default cursor
@@ -454,15 +458,15 @@ function mouseIsNearLine(x1, y1, x2, y2, threshold, colorRoute, displayStop, dis
 }
 
 function keyPressed() {
-    if (keyCode === LEFT_ARROW && keyValue > 1) {
-      keyValue--;
-    } else if (keyCode === RIGHT_ARROW && keyValue < 9) {
-      keyValue++;
-    }
-    console.log(keyValue);
-    slider.value(keyValue);
-    return false;
+  if (keyCode === LEFT_ARROW && keyValue > 1) {
+    keyValue--;
+  } else if (keyCode === RIGHT_ARROW && keyValue < 9) {
+    keyValue++;
   }
+  console.log(keyValue);
+  slider.value(keyValue);
+  return false;
+}
 
 function distToLine(px, py, x1, y1, x2, y2) {
   let A = px - x1;
@@ -505,6 +509,36 @@ function removeDuplicatesFromArray(inputArray) {
   });
 }
 
+function mousePressed() {
+  // Check if the rectangle is already drawn
+  if (introDrawn) {
+    // If drawn, erase it by setting the flag to false
+    introDrawn = false;
+  } else {
+    // If not drawn, draw the rectangle by setting the flag to true
+    introDrawn = true;
+  }
+}
+
+function introPage() {
+  push();
+  fill("#FFFFFF");
+  rect(0, 0, 1500, 800);
+  fill("#333333");
+  noStroke();
+  textSize(40);
+  textAlign(LEFT, TOP);
+  text("This is a visualization of the MBTA (Boston's subway system).", 27.5, 50);
+  text("It shows how busy each line is throughout different times during the day.", 27.5, 92.5);
+  text("Use the arrow (L/R) keys to toggle through the day.", 27.5, 172.5);
+  text("Hover to see stop specific rider data.", 27.5, 212.5);
+  text("Click to continue...", 27.5, 700.5);
+  textSize(20);
+  textStyle(ITALIC);
+  text("Data acquired from the MBTA, isolated to fall 2019.", 27.5, 740.5);
+  pop();
+}
+
 //MBTA Map Redrawn
 function draw() {
   //Background color
@@ -533,6 +567,11 @@ function draw() {
 
   //Display Time
   showTime();
+
+  //Intro
+  if (introDrawn) {
+    introPage();
+  }
 
   //Mouse
   mouse();
